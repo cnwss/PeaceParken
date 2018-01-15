@@ -1,0 +1,3956 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box; }
+
+header img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  /*margin-left: 0.4%; */ }
+header nav {
+  overflow: hidden;
+  background-color: #6c809b;
+  font-family: "Muli"; }
+  header nav a {
+    float: left;
+    margin-left: 2%;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px; }
+    header nav a li {
+      display: inline-block;
+      margin-left: 100px;
+      font-size: 25px; }
+  header nav .drop {
+    float: left;
+    overflow: hidden; }
+    header nav .drop .button {
+      cursor: pointer;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit; }
+
+body {
+  /*Brandkadet side starter*/ }
+  body .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    margin: 0px;
+    justify-content: center;
+    margin-top: 0.5rem; }
+  body .flex-1 {
+    margin: 0.5rem;
+    width: 32%;
+    height: 230px; }
+    body .flex-1 img {
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s; }
+    body .flex-1 img:hover {
+      opacity: 0.3; }
+  body .flex-2 {
+    margin: 0.5rem;
+    width: 32%; }
+    body .flex-2 img {
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s; }
+    body .flex-2 img:hover {
+      opacity: 0.3; }
+  body .flex-3 {
+    margin: 0.5rem;
+    width: 32%; }
+    body .flex-3 img {
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s; }
+    body .flex-3 img:hover {
+      opacity: 0.3; }
+  body .flex-4 {
+    margin: 0.5rem;
+    width: 32%;
+    height: 230px; }
+    body .flex-4 img {
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s; }
+    body .flex-4 img:hover {
+      opacity: 0.3; }
+  body .flex-5 {
+    width: 32%;
+    margin: 0.5rem; }
+    body .flex-5 img {
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s; }
+    body .flex-5 img:hover {
+      opacity: 0.3; }
+  body .flex-6 {
+    width: 32%;
+    margin: 0.5rem; }
+    body .flex-6 img {
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s; }
+    body .flex-6 img:hover {
+      opacity: 0.3; }
+  body .flex-7 {
+    width: 32%;
+    margin: 0.5rem; }
+    body .flex-7 img {
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s; }
+    body .flex-7 img:hover {
+      opacity: 0.3; }
+  body .flex-8 {
+    width: 32%;
+    margin: 0.5rem; }
+    body .flex-8 img {
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s; }
+    body .flex-8 img:hover {
+      opacity: 0.3; }
+  body .flex-9 {
+    width: 32%;
+    margin: 0.5rem; }
+    body .flex-9 img {
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s; }
+    body .flex-9 img:hover {
+      opacity: 0.3; }
+  body .aktivitet_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-height: auto;
+    max-width: 100%;
+    width: 100%;
+    margin: 0px;
+    justify-content: center;
+    margin-top: 0.5rem; }
+  body .aktivitet_flex-1 {
+    margin: 1.0rem;
+    width: 40%;
+    height: auto;
+    margin-bottom: 5rem; }
+    body .aktivitet_flex-1 img {
+      width: 100%;
+      max-height: auto;
+      transition: 0.5s; }
+      body .aktivitet_flex-1 img:hover {
+        opacity: 0.5; }
+  body .aktivitet_flex-2 {
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    margin-top: -29px; }
+    body .aktivitet_flex-2 p {
+      width: 100%;
+      max-height: 300px;
+      font-size: 25px;
+      font-family: "Muli"; }
+      body .aktivitet_flex-2 p a:link {
+        color: #81a22f;
+        text-decoration: none; }
+  body .aktivitet_flex-4 {
+    margin: 1.0rem;
+    width: 40%;
+    height: auto;
+    margin-bottom: 5rem; }
+    body .aktivitet_flex-4 img {
+      width: 100%;
+      max-height: auto;
+      transition: 0.5s; }
+      body .aktivitet_flex-4 img:hover {
+        opacity: 0.5; }
+  body .aktivitet_flex-5 {
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    margin-top: -29px; }
+    body .aktivitet_flex-5 p {
+      width: 100%;
+      max-height: 300px;
+      font-size: 25px;
+      font-family: "Muli"; }
+      body .aktivitet_flex-5 p a:link {
+        color: #81a22f;
+        text-decoration: none; }
+  body .aktivitet_flex-7 {
+    margin: 1.0rem;
+    width: 40%;
+    height: auto;
+    margin-bottom: 5rem; }
+    body .aktivitet_flex-7 img {
+      width: 100%;
+      max-height: auto;
+      transition: 0.5s; }
+      body .aktivitet_flex-7 img:hover {
+        opacity: 0.5; }
+  body .aktivitet_flex-8 {
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    margin-top: -13px; }
+    body .aktivitet_flex-8 p {
+      width: 100%;
+      max-height: 300px;
+      font-size: 25px;
+      font-family: "Muli"; }
+      body .aktivitet_flex-8 p a:link {
+        color: #81a22f;
+        text-decoration: none; }
+  body .aktivitet_flex-9 {
+    margin: 1.0rem;
+    width: 40%;
+    height: auto;
+    margin-bottom: 5rem; }
+    body .aktivitet_flex-9 img {
+      width: 100%;
+      max-height: auto;
+      transition: 0.5s; }
+      body .aktivitet_flex-9 img:hover {
+        opacity: 0.5; }
+  body .aktivitet_flex-10 {
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    margin-top: -13px; }
+    body .aktivitet_flex-10 p {
+      width: 100%;
+      max-height: 300px;
+      font-size: 25px;
+      font-family: "Muli"; }
+      body .aktivitet_flex-10 p a:link {
+        color: #81a22f;
+        text-decoration: none; }
+  body .aktivitetbrand_flex-1 {
+    margin: 1.0rem;
+    width: 72%;
+    height: 200px; }
+    body .aktivitetbrand_flex-1 h1 {
+      font-family: "Muli";
+      font-size: 55px;
+      text-align: center; }
+  body .aktivitetbrand_flex-2 {
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    float: left; }
+    body .aktivitetbrand_flex-2 img {
+      width: 100%;
+      max-height: 300px; }
+  body .aktivitetbrand_flex-3 {
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    float: left;
+    margin-top: -3px;
+    margin-bottom: 120px; }
+    body .aktivitetbrand_flex-3 h1 {
+      width: 100%;
+      max-height: 300px;
+      font-size: 20px;
+      font-family: "Muli"; }
+    body .aktivitetbrand_flex-3 p {
+      width: 100%;
+      max-height: 300px;
+      font-size: 15px;
+      font-family: "Muli"; }
+  body .aktivitetbrand_flex-4 {
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    float: left; }
+    body .aktivitetbrand_flex-4 img {
+      width: 100%;
+      max-height: 300px; }
+
+/*Kontaktside starter*/
+.kontakt_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-height: auto;
+  max-width: 100%;
+  width: 100%;
+  margin: 0px;
+  justify-content: center;
+  margin-top: 0.5rem;
+  background-image: url(img/cork-board.jpg); }
+  .kontakt_wrapper .kontakt_flex-1 {
+    margin: 0.5rem;
+    width: 32%;
+    height: 230px; }
+    .kontakt_wrapper .kontakt_flex-1 img {
+      width: 100%;
+      height: auto; }
+  .kontakt_wrapper .kontakt_flex-2 {
+    margin: 0.5rem;
+    width: 32%; }
+    .kontakt_wrapper .kontakt_flex-2 img {
+      width: 100%;
+      max-height: auto; }
+  .kontakt_wrapper .kontakt_flex-3 {
+    margin: 0.5rem;
+    width: 32%; }
+    .kontakt_wrapper .kontakt_flex-3 img {
+      width: 100%;
+      max-height: auto; }
+  .kontakt_wrapper .kontakt_flex-4 {
+    margin: 0.5rem;
+    width: 32%;
+    height: 230px; }
+    .kontakt_wrapper .kontakt_flex-4 img {
+      width: 100%;
+      max-height: auto; }
+  .kontakt_wrapper .kontakt_flex-5 {
+    width: 32%;
+    margin: 0.5rem;
+    height: 520px; }
+    .kontakt_wrapper .kontakt_flex-5 img {
+      height: 100%;
+      width: auto; }
+  .kontakt_wrapper .kontakt_flex-6 {
+    width: 32%;
+    margin: 0.5rem; }
+    .kontakt_wrapper .kontakt_flex-6 img {
+      width: 100%;
+      height: auto; }
+
+/*Presseside starter*/
+.presse_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-height: auto;
+  max-width: 100%;
+  width: 100%;
+  margin: 0px;
+  justify-content: center;
+  margin-top: 0.5rem; }
+  .presse_wrapper .presse_flex-1 {
+    margin: 1.7rem;
+    width: 32%;
+    height: 60px; }
+    .presse_wrapper .presse_flex-1 img {
+      border: solid;
+      border-color: black;
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s; }
+    .presse_wrapper .presse_flex-1 img:hover {
+      opacity: 0.3; }
+  .presse_wrapper .presse_flex-2 {
+    margin: 1.7rem;
+    width: 32%;
+    height: 120px; }
+    .presse_wrapper .presse_flex-2 img {
+      border: solid;
+      border-color: black;
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s; }
+    .presse_wrapper .presse_flex-2 img:hover {
+      opacity: 0.3; }
+  .presse_wrapper .presse_flex-3 {
+    margin: 1.7rem;
+    width: 32%;
+    height: 47px; }
+    .presse_wrapper .presse_flex-3 img {
+      border: solid;
+      border-color: black;
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s; }
+    .presse_wrapper .presse_flex-3 img:hover {
+      opacity: 0.3; }
+  .presse_wrapper .presse_flex-4 {
+    margin: 1.7rem;
+    width: 32%;
+    height: 73px; }
+    .presse_wrapper .presse_flex-4 img {
+      border: solid;
+      border-color: black;
+      width: 100%;
+      max-height: 100px;
+      transition: 0.5s; }
+    .presse_wrapper .presse_flex-4 img:hover {
+      opacity: 0.3; }
+
+.presse_flex-7 {
+  width: 32%;
+  margin: 0.5rem;
+  margin-left: 700px;
+  margin-right: 200px; }
+  .presse_flex-7 iframe {
+    width: 100%;
+    max-height: 230px; }
+
+.video {
+  padding-left: 10%;
+  position: center;
+  padding-bottom: 50%;
+  padding-right: 60%;
+  margin-right: 200px;
+  padding-top: 4%; }
+
+/*rådgivningsside starter*/
+.raadgivning_flex-1 {
+  width: 40%;
+  height: 300px;
+  margin-top: 50px; }
+  .raadgivning_flex-1 img {
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s; }
+  .raadgivning_flex-1 img:hover {
+    opacity: 0.3; }
+
+.raadgivning_flex-2 {
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: 18px; }
+  .raadgivning_flex-2 p {
+    font-family: "Muli";
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px; }
+    .raadgivning_flex-2 p a:link {
+      color: #81a22f;
+      text-decoration: none; }
+
+.raadgivning_flex-3 {
+  width: 40%;
+  margin: 0.5;
+  margin-top: 20px; }
+  .raadgivning_flex-3 img {
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s; }
+  .raadgivning_flex-3 img:hover {
+    opacity: 0.3; }
+
+.raadgivning_flex-4 {
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: -12px; }
+  .raadgivning_flex-4 p {
+    font-family: "Muli";
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px; }
+    .raadgivning_flex-4 p a:link {
+      color: #81a22f;
+      text-decoration: none; }
+
+.raadgivning_flex-5 {
+  width: 40%;
+  margin: 0.5;
+  margin-top: 20px; }
+  .raadgivning_flex-5 img {
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s; }
+  .raadgivning_flex-5 img:hover {
+    opacity: 0.3; }
+
+.raadgivning_flex-6 {
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: -12px; }
+  .raadgivning_flex-6 p {
+    font-family: "Muli";
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px; }
+    .raadgivning_flex-6 p a:link {
+      color: #81a22f;
+      text-decoration: none; }
+
+.raadgivning_flex-7 {
+  width: 40%;
+  margin: 0.5;
+  margin-top: 20px; }
+  .raadgivning_flex-7 img {
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s; }
+  .raadgivning_flex-7 img:hover {
+    opacity: 0.3; }
+
+.raadgivning_flex-8 {
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: -12px; }
+  .raadgivning_flex-8 p {
+    font-family: "Muli";
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px; }
+    .raadgivning_flex-8 p a:link {
+      color: #81a22f;
+      text-decoration: none; }
+
+.raadgivning_flex-9 {
+  width: 40%;
+  margin: 0.5;
+  margin-top: 20px; }
+  .raadgivning_flex-9 img {
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s; }
+  .raadgivning_flex-9 img:hover {
+    opacity: 0.3; }
+
+.raadgivning_flex-10 {
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: -12px; }
+  .raadgivning_flex-10 p {
+    font-family: "Muli";
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px; }
+    .raadgivning_flex-10 p a:link {
+      color: #81a22f;
+      text-decoration: none; }
+
+.raadgivning_flex-11 {
+  width: 40%;
+  margin: 0.5;
+  margin-top: 20px; }
+  .raadgivning_flex-11 img {
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s; }
+  .raadgivning_flex-11 img:hover {
+    opacity: 0.3; }
+
+.raadgivning_flex-12 {
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: -12px; }
+  .raadgivning_flex-12 p {
+    font-family: "Muli";
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px; }
+    .raadgivning_flex-12 p a:link {
+      color: #81a22f;
+      text-decoration: none; }
+
+.raadgivning_flex-13 {
+  width: 40%;
+  margin: 0.5;
+  margin-top: 20px; }
+  .raadgivning_flex-13 img {
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s; }
+  .raadgivning_flex-13 img:hover {
+    opacity: 0.3; }
+
+.raadgivning_flex-14 {
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: -12px; }
+  .raadgivning_flex-14 p {
+    font-family: "Muli";
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px; }
+    .raadgivning_flex-14 p a:link {
+      color: #81a22f;
+      text-decoration: none; }
+
+.raadgivning_flex-15 {
+  width: 40%;
+  margin: 0.5;
+  margin-top: 20px; }
+  .raadgivning_flex-15 img {
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s; }
+  .raadgivning_flex-15 img:hover {
+    opacity: 0.3; }
+
+.raadgivning_flex-16 {
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: -12px; }
+  .raadgivning_flex-16 p {
+    font-family: "Muli";
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px; }
+    .raadgivning_flex-16 p a:link {
+      color: #81a22f;
+      text-decoration: none; }
+
+.raadgivning_flex-17 {
+  width: 40%;
+  margin: 0.5;
+  margin-top: 20px; }
+  .raadgivning_flex-17 img {
+    width: 100%;
+    max-height: 300px; }
+  .raadgivning_flex-17 img:hover {
+    opacity: 0.3; }
+
+.raadgivning_flex-18 {
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: -12px; }
+  .raadgivning_flex-18 p {
+    font-family: "Muli";
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px; }
+    .raadgivning_flex-18 p a:link {
+      color: #81a22f;
+      text-decoration: none; }
+
+.wrapper2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; }
+
+/*økonomisk rådgivning*/
+.oko-overskrift {
+  margin: 1.0rem;
+  width: 95%;
+  height: 300px; }
+  .oko-overskrift h1 {
+    font-family: "Muli";
+    font-size: 55px;
+    text-align: center; }
+
+.raad-1 {
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left;
+  margin-left: 200px;
+  margin-top: -80px; }
+  .raad-1 img {
+    width: 100%;
+    max-height: 300px; }
+
+.raad-2 {
+  display: inline-block;
+  margin-left: 20px;
+  font-family: "Muli";
+  margin-top: -100PX; }
+
+.helhed_flex-1 {
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  margin-bottom: 5rem; }
+  .helhed_flex-1 img {
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s; }
+    .helhed_flex-1 img:hover {
+      opacity: 0.5;
+      color: #fff; }
+
+.helhed_flex-2 {
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  margin-top: -12px; }
+  .helhed_flex-2 p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 25px;
+    font-family: "Muli"; }
+    .helhed_flex-2 p a:link {
+      color: #81a22f;
+      text-decoration: none; }
+
+.helhed_flex-3 {
+  margin: 0.7rem;
+  margin-left: -5px;
+  width: 40%;
+  height: 300px;
+  margin-bottom: 5rem; }
+  .helhed_flex-3 img {
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s; }
+    .helhed_flex-3 img:hover {
+      opacity: 0.5;
+      color: #fff; }
+
+.helhed_flex-4 {
+  margin: 0.5rem;
+  width: 40%;
+  height: 300px;
+  margin-top: -12px; }
+  .helhed_flex-4 p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 25px;
+    font-family: "Muli"; }
+    .helhed_flex-4 p a:link {
+      color: #81a22f;
+      text-decoration: none; }
+
+.helhed_flex-5 {
+  width: 30%;
+  margin: 0.7rem;
+  height: 230px; }
+  .helhed_flex-5 img {
+    width: 100%;
+    max-height: 230px;
+    transition: 0.5s; }
+    .helhed_flex-5 img:hover {
+      opacity: 0.5;
+      color: #fff; }
+
+.helhed_flex-6 {
+  width: 40%;
+  margin: 0.7rem;
+  height: 230px; }
+  .helhed_flex-6 img {
+    width: 100%;
+    max-height: 230px;
+    transition: 0.5s; }
+    .helhed_flex-6 img:hover {
+      opacity: 0.5;
+      color: #fff; }
+
+/*indsats frontpage start*/
+.indsats_flex-2 {
+  margin: 1.0rem;
+  width: 72%;
+  height: 200px; }
+  .indsats_flex-2 h1 {
+    font-family: "Muli";
+    font-size: 55px;
+    text-align: center; }
+
+.indsats_flex-3 {
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left; }
+  .indsats_flex-3 img {
+    width: 100%;
+    max-height: 300px; }
+
+.indsats_flex-4 {
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left;
+  margin-top: -12px;
+  font-family: "Muli"; }
+  .indsats_flex-4 h1 {
+    font-family: "Muli"; }
+  .indsats_flex-4 p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: "Muli"; }
+
+.indsats_flex-5 {
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left; }
+  .indsats_flex-5 img {
+    width: 100%;
+    max-height: 300px; }
+
+.indsats_flex-6 {
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left;
+  margin-top: -12px;
+  font-family: "Muli"; }
+  .indsats_flex-6 h1 {
+    font-family: "Muli"; }
+    .indsats_flex-6 h1 p {
+      width: 100%;
+      max-height: 300px;
+      font-size: 15px;
+      font-family: "Muli"; }
+
+.indsats_flex-7 {
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left; }
+  .indsats_flex-7 img {
+    width: 100%;
+    max-height: 300px; }
+
+.indsats_flex-8 {
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left;
+  margin-top: -12px;
+  font-family: "Muli"; }
+  .indsats_flex-8 h1 {
+    font-family: "Muli"; }
+  .indsats_flex-8 p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: "Muli"; }
+
+footer {
+  height: 130px;
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Muli"; }
+
+.footer_presse {
+  height: 130px;
+  text-align: center;
+  margin-top: 0px;
+  font-family: "Muli"; }
+
+@media only screen and (max-width: 375px) {
+  body {
+    /*økonomisk rådgivning*/ }
+    body header img {
+      height: auto;
+      width: 100%;
+      max-width: 100%;
+      /*margin-left: 0.4%; */ }
+    body header .navigation {
+      overflow: hidden;
+      background-color: #6c809b;
+      font-family: "Muli"; }
+      body header .navigation a {
+        float: left;
+        font-size: 8px;
+        color: white;
+        text-align: center;
+        padding: 6px 6px;
+        text-decoration: none;
+        margin-bottom: 0px; }
+        body header .navigation a li {
+          display: inline-block;
+          margin-left: 0px;
+          font-size: 12px;
+          padding-bottom: 14px;
+          padding-top: 0px; }
+      body header .navigation .drop {
+        float: left;
+        overflow: hidden; }
+        body header .navigation .drop .button {
+          cursor: pointer;
+          font-size: 16px;
+          border: none;
+          outline: none;
+          color: white;
+          padding: 14px 16px;
+          background-color: inherit; }
+    body .flex-1 {
+      margin: 0.5rem;
+      min-width: 100%;
+      height: 230px; }
+      body .flex-1 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-1 img:hover {
+        opacity: 0.3; }
+    body .flex-2 {
+      margin: 0.5rem;
+      min-width: 100%; }
+      body .flex-2 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-2 img:hover {
+        opacity: 0.3; }
+    body .flex-3 {
+      margin: 0.5rem;
+      min-width: 100%; }
+      body .flex-3 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-3 img:hover {
+        opacity: 0.3; }
+    body .flex-4 {
+      margin: 0.5rem;
+      min-width: 100%;
+      height: 230px; }
+      body .flex-4 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-4 img:hover {
+        opacity: 0.3; }
+    body .flex-5 {
+      min-width: 100%;
+      margin: 0.5rem; }
+      body .flex-5 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-5 img:hover {
+        opacity: 0.3; }
+    body .flex-6 {
+      min-width: 100%;
+      margin: 0.5rem; }
+      body .flex-6 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-6 img:hover {
+        opacity: 0.3; }
+    body .flex-7 {
+      min-width: 100%;
+      margin: 0.5rem; }
+      body .flex-7 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-7 img:hover {
+        opacity: 0.3; }
+    body .flex-8 {
+      min-width: 100%;
+      margin: 0.5rem; }
+      body .flex-8 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-8 img:hover {
+        opacity: 0.3; }
+    body .flex-9 {
+      min-width: 100%;
+      margin: 0.5rem; }
+      body .flex-9 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-9 img:hover {
+        opacity: 0.3; }
+    body .helhed_flex-1 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: auto;
+      margin-bottom: 5rem; }
+      body .helhed_flex-1 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .helhed_flex-1 img:hover {
+          opacity: 0.5;
+          color: #fff; }
+    body .helhed_flex-2 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 100px;
+      margin-top: -90px; }
+      body .helhed_flex-2 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 14px;
+        font-family: "Muli"; }
+        body .helhed_flex-2 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .helhed_flex-3 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 300px;
+      margin-bottom: 5rem; }
+      body .helhed_flex-3 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .helhed_flex-3 img:hover {
+          opacity: 0.5;
+          color: #fff; }
+    body .helhed_flex-4 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 100px;
+      margin-top: -130px;
+      border-bottom: solid;
+      border-color: black; }
+      body .helhed_flex-4 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 14px;
+        font-family: "Muli"; }
+        body .helhed_flex-4 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .helhed_flex-5 {
+      width: 30%;
+      margin: 0.7rem;
+      height: 130px; }
+      body .helhed_flex-5 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+        body .helhed_flex-5 img:hover {
+          opacity: 0.5;
+          color: #fff; }
+    body .helhed_flex-6 {
+      width: 40%;
+      margin: 0.7rem;
+      height: 130px; }
+      body .helhed_flex-6 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+        body .helhed_flex-6 img:hover {
+          opacity: 0.5;
+          color: #fff; }
+    body .indsats_flex-2 {
+      margin: 1.0rem;
+      min-width: 75%;
+      height: 100px; }
+      body .indsats_flex-2 h1 {
+        font-family: "Muli";
+        font-size: 33px;
+        text-align: center; }
+    body .indsats_flex-3 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 300px;
+      float: left; }
+      body .indsats_flex-3 img {
+        width: 100%;
+        max-height: 300px; }
+    body .indsats_flex-4 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 300px;
+      float: left;
+      margin-top: -72px;
+      font-family: "Muli"; }
+      body .indsats_flex-4 h1 {
+        font-family: "Muli";
+        font-size: 18px; }
+      body .indsats_flex-4 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 15px;
+        font-family: "Muli"; }
+    body .indsats_flex-5 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 300px;
+      float: left; }
+      body .indsats_flex-5 img {
+        width: 100%;
+        max-height: 300px; }
+    body .indsats_flex-6 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 300px;
+      float: left;
+      margin-top: -72px;
+      font-family: "Muli";
+      margin-bottom: 70px; }
+      body .indsats_flex-6 h1 {
+        font-family: "Muli";
+        font-size: 18px; }
+        body .indsats_flex-6 h1 p {
+          width: 100%;
+          max-height: 300px;
+          font-size: 15px;
+          font-family: "Muli"; }
+    body .indsats_flex-7 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 300px;
+      margin-top: -25px;
+      float: left; }
+      body .indsats_flex-7 img {
+        width: 100%;
+        max-height: 300px; }
+    body .indsats_flex-8 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 300px;
+      float: left;
+      margin-top: -72px;
+      font-family: "Muli"; }
+      body .indsats_flex-8 h1 {
+        font-family: "Muli";
+        font-size: 18px; }
+      body .indsats_flex-8 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 15px;
+        font-family: "Muli"; }
+    body .aktivitet_flex-1 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 160px;
+      margin-bottom: -1rem; }
+      body .aktivitet_flex-1 img {
+        width: 100%;
+        max-height: 200px;
+        transition: 0.5s; }
+        body .aktivitet_flex-1 img:hover {
+          opacity: 0.5; }
+    body .aktivitet_flex-2 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 200px;
+      margin-top: 3rem; }
+      body .aktivitet_flex-2 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 15px;
+        font-family: "Muli"; }
+        body .aktivitet_flex-2 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .aktivitet_flex-4 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 300px;
+      margin-bottom: -3rem;
+      margin-top: -4rem; }
+      body .aktivitet_flex-4 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .aktivitet_flex-4 img:hover {
+          opacity: 0.5; }
+    body .aktivitet_flex-5 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 300px;
+      margin-top: -13px; }
+      body .aktivitet_flex-5 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 15px;
+        font-family: "Muli"; }
+        body .aktivitet_flex-5 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .aktivitet_flex-7 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 300px;
+      margin-bottom: -3rem;
+      margin-top: -10rem; }
+      body .aktivitet_flex-7 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .aktivitet_flex-7 img:hover {
+          opacity: 0.5; }
+    body .aktivitet_flex-8 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 300px;
+      margin-top: -13px; }
+      body .aktivitet_flex-8 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 15px;
+        font-family: "Muli"; }
+        body .aktivitet_flex-8 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .aktivitet_flex-9 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 300px;
+      margin-bottom: 1rem;
+      margin-top: -10rem; }
+      body .aktivitet_flex-9 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .aktivitet_flex-9 img:hover {
+          opacity: 0.5; }
+    body .aktivitet_flex-10 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 100px;
+      font-size: 15px;
+      margin-top: -72px; }
+      body .aktivitet_flex-10 p {
+        width: 100%;
+        max-height: 250px;
+        font-size: 15px;
+        font-family: "Muli"; }
+        body .aktivitet_flex-10 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .aktivitetbrand_flex-1 {
+      margin: 1.0rem;
+      min-width: 75%;
+      height: 100px; }
+      body .aktivitetbrand_flex-1 h1 {
+        font-family: "Muli";
+        font-size: 33px;
+        text-align: center; }
+    body .aktivitetbrand_flex-2 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 300px;
+      float: left; }
+      body .aktivitetbrand_flex-2 img {
+        width: 100%;
+        max-height: 300px; }
+    body .aktivitetbrand_flex-3 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 300px;
+      float: left;
+      margin-top: -3px;
+      margin-bottom: 120px; }
+      body .aktivitetbrand_flex-3 h1 {
+        width: 100%;
+        max-height: 300px;
+        font-size: 20px;
+        font-family: "Muli"; }
+      body .aktivitetbrand_flex-3 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 15px;
+        font-family: "Muli"; }
+    body .aktivitetbrand_flex-4 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 250px;
+      float: left; }
+      body .aktivitetbrand_flex-4 img {
+        width: 100%;
+        max-height: 250px; }
+    body .raadgivning_flex-1 {
+      min-width: 100%;
+      height: 300px;
+      margin-top: 50px; }
+      body .raadgivning_flex-1 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-1 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-2 {
+      min-width: 100%;
+      margin: 1.0rem;
+      margin-top: -48px; }
+      body .raadgivning_flex-2 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-2 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-3 {
+      min-width: 100%;
+      margin: 0.5;
+      margin-top: 20px; }
+      body .raadgivning_flex-3 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-3 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-4 {
+      min-width: 100%;
+      margin: 1.0rem;
+      margin-top: -12px; }
+      body .raadgivning_flex-4 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-4 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-5 {
+      min-width: 100%;
+      margin: 0.5;
+      margin-top: 20px; }
+      body .raadgivning_flex-5 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-5 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-6 {
+      min-width: 100%;
+      margin: 1.0rem;
+      margin-top: -12px; }
+      body .raadgivning_flex-6 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-6 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-7 {
+      min-width: 100%;
+      margin: 0.5;
+      margin-top: 20px; }
+      body .raadgivning_flex-7 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-7 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-8 {
+      min-width: 100%;
+      margin: 1.0rem;
+      margin-top: -12px; }
+      body .raadgivning_flex-8 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-8 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-9 {
+      min-width: 100%;
+      margin: 0.5;
+      margin-top: 20px; }
+      body .raadgivning_flex-9 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-9 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-10 {
+      min-width: 100%;
+      margin: 1.0rem;
+      margin-top: -12px; }
+      body .raadgivning_flex-10 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-10 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-11 {
+      min-width: 100%;
+      margin: 0.5;
+      margin-top: 20px; }
+      body .raadgivning_flex-11 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-11 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-12 {
+      min-width: 100%;
+      margin: 1.0rem;
+      margin-top: -12px; }
+      body .raadgivning_flex-12 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-12 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-13 {
+      min-width: 100%;
+      margin: 0.5;
+      margin-top: 20px; }
+      body .raadgivning_flex-13 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-13 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-14 {
+      min-width: 100%;
+      margin: 1.0rem;
+      margin-top: -12px; }
+      body .raadgivning_flex-14 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-14 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-15 {
+      min-width: 100%;
+      margin: 0.5;
+      margin-top: 20px; }
+      body .raadgivning_flex-15 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-15 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-16 {
+      min-width: 100%;
+      margin: 1.0rem;
+      margin-top: -12px; }
+      body .raadgivning_flex-16 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-16 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-17 {
+      min-width: 100%;
+      margin: 0.5;
+      margin-top: 20px; }
+      body .raadgivning_flex-17 img {
+        width: 100%;
+        max-height: 300px; }
+      body .raadgivning_flex-17 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-18 {
+      min-width: 100%;
+      margin: 1.0rem;
+      margin-top: -12px; }
+      body .raadgivning_flex-18 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-18 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .wrapper2 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row; }
+    body .oko-overskrift {
+      margin: 1.0rem;
+      min-width: 75%;
+      height: 300px; }
+      body .oko-overskrift h1 {
+        font-family: "Muli";
+        font-size: 33px;
+        text-align: center; }
+    body .raad-1 {
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 300px;
+      float: left;
+      margin-left: 0px;
+      margin-top: -120px; }
+      body .raad-1 img {
+        width: 100%;
+        max-height: 300px; }
+    body .raad-2 {
+      display: inline-block;
+      margin-left: 20px;
+      font-family: "Muli";
+      margin-top: -90PX; }
+    body .presse_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      max-height: 2000px;
+      max-width: 100%;
+      width: 100%;
+      margin: 0px;
+      justify-content: center;
+      margin-top: 1rem; }
+      body .presse_wrapper .presse_flex-1 {
+        margin: 0rem;
+        min-width: 100%;
+        height: 60px; }
+        body .presse_wrapper .presse_flex-1 img {
+          border: solid;
+          border-color: black;
+          width: 100%;
+          max-height: 230px;
+          transition: 0.5s; }
+        body .presse_wrapper .presse_flex-1 img:hover {
+          opacity: 0.3; }
+      body .presse_wrapper .presse_flex-2 {
+        margin: 0rem;
+        min-width: 100%;
+        height: 120px; }
+        body .presse_wrapper .presse_flex-2 img {
+          border: solid;
+          border-color: black;
+          width: 100%;
+          max-height: 230px;
+          transition: 0.5s; }
+        body .presse_wrapper .presse_flex-2 img:hover {
+          opacity: 0.3; }
+      body .presse_wrapper .presse_flex-3 {
+        margin: 0rem;
+        width: 100%;
+        height: 47px; }
+        body .presse_wrapper .presse_flex-3 img {
+          border: solid;
+          border-color: black;
+          width: 100%;
+          max-height: 230px;
+          transition: 0.5s; }
+        body .presse_wrapper .presse_flex-3 img:hover {
+          opacity: 0.3; }
+      body .presse_wrapper .presse_flex-4 {
+        margin: 0rem;
+        min-width: 100%;
+        height: 73px; }
+        body .presse_wrapper .presse_flex-4 img {
+          border: solid;
+          border-color: black;
+          width: 100%;
+          max-height: 100px;
+          transition: 0.5s; }
+        body .presse_wrapper .presse_flex-4 img:hover {
+          opacity: 0.3; }
+    body .presse_flex-7 {
+      width: 32%;
+      margin: 0.5rem;
+      margin-left: 700px;
+      margin-right: 200px; }
+      body .presse_flex-7 iframe {
+        width: 100%;
+        max-height: 230px; }
+    body .video {
+      padding-left: 0%;
+      position: center;
+      padding-bottom: 50%;
+      padding-right: 60%;
+      margin-right: 200px;
+      padding-top: 4%; }
+    body .kontakt_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      max-height: 5100px;
+      max-width: 100%;
+      width: 100%;
+      margin: 0px;
+      justify-content: center;
+      margin-top: 0.5rem;
+      background-image: url(img/cork-board.jpg); }
+      body .kontakt_wrapper .kontakt_flex-1 {
+        margin: 0.5rem;
+        min-width: 100%;
+        height: 330px; }
+        body .kontakt_wrapper .kontakt_flex-1 img {
+          width: 100%;
+          height: auto; }
+      body .kontakt_wrapper .kontakt_flex-2 {
+        margin: 0.5rem;
+        min-width: 100%; }
+        body .kontakt_wrapper .kontakt_flex-2 img {
+          width: 100%;
+          max-height: auto; }
+      body .kontakt_wrapper .kontakt_flex-3 {
+        margin: 0.5rem;
+        min-width: 100%;
+        margin-top: -90px; }
+        body .kontakt_wrapper .kontakt_flex-3 img {
+          width: 100%;
+          max-height: auto; }
+      body .kontakt_wrapper .kontakt_flex-4 {
+        margin: 0.5rem;
+        min-width: 100%;
+        height: 230px;
+        margin-top: -90px; }
+        body .kontakt_wrapper .kontakt_flex-4 img {
+          width: 100%;
+          max-height: auto; }
+      body .kontakt_wrapper .kontakt_flex-5 {
+        min-width: 100%;
+        margin: 0.5rem;
+        height: 420px;
+        margin-top: 120px; }
+        body .kontakt_wrapper .kontakt_flex-5 img {
+          width: 100%;
+          height: auto; }
+      body .kontakt_wrapper .kontakt_flex-6 {
+        min-width: 100%;
+        margin: 0.5rem;
+        margin-top: -70px; }
+        body .kontakt_wrapper .kontakt_flex-6 img {
+          width: 100%;
+          height: auto; }
+    body footer {
+      height: 0px;
+      text-align: center;
+      margin-top: 10px;
+      font-family: "Muli"; }
+    body .footer_presse {
+      height: 30px;
+      text-align: center;
+      margin-top: -170px;
+      font-family: "Muli"; } }
+@media only screen and (max-width: 768px) {
+  body {
+    /*økonomisk rådgivning*/ }
+    body header img {
+      height: auto;
+      width: 100%;
+      /*margin-left: 0.4%; */ }
+    body header .navigation {
+      overflow: hidden;
+      background-color: #6c809b;
+      font-family: "Muli"; }
+      body header .navigation a {
+        float: left;
+        font-size: 8px;
+        color: white;
+        text-align: center;
+        margin-left: 5%;
+        text-decoration: none;
+        margin-bottom: 0px;
+        justify-content: center; }
+        body header .navigation a li {
+          display: inline-block;
+          margin-left: 0px;
+          font-size: 24px;
+          padding-bottom: 14px;
+          padding-top: 0px; }
+      body header .navigation .drop {
+        float: left;
+        overflow: hidden; }
+        body header .navigation .drop .button {
+          cursor: pointer;
+          font-size: 16px;
+          border: none;
+          outline: none;
+          color: white;
+          padding: 14px 16px;
+          background-color: inherit; }
+    body .flex-1 {
+      margin: 0.5rem;
+      min-width: 45%;
+      height: 230px; }
+      body .flex-1 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-1 img:hover {
+        opacity: 0.3; }
+    body .flex-2 {
+      margin: 0.5rem;
+      min-width: 45%; }
+      body .flex-2 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-2 img:hover {
+        opacity: 0.3; }
+    body .flex-3 {
+      margin: 0.5rem;
+      min-width: 45%; }
+      body .flex-3 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-3 img:hover {
+        opacity: 0.3; }
+    body .flex-4 {
+      margin: 0.5rem;
+      min-width: 45%;
+      height: 230px; }
+      body .flex-4 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-4 img:hover {
+        opacity: 0.3; }
+    body .flex-5 {
+      min-width: 45%;
+      margin: 0.5rem; }
+      body .flex-5 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-5 img:hover {
+        opacity: 0.3; }
+    body .flex-6 {
+      min-width: 45%;
+      margin: 0.5rem; }
+      body .flex-6 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-6 img:hover {
+        opacity: 0.3; }
+    body .flex-7 {
+      min-width: 45%;
+      margin: 0.5rem; }
+      body .flex-7 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-7 img:hover {
+        opacity: 0.3; }
+    body .flex-8 {
+      min-width: 45%;
+      margin: 0.5rem; }
+      body .flex-8 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-8 img:hover {
+        opacity: 0.3; }
+    body .flex-9 {
+      min-width: 45%;
+      margin: 0.5rem; }
+      body .flex-9 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-9 img:hover {
+        opacity: 0.3; }
+    body .helhed_flex-1 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: auto;
+      margin-bottom: 5rem; }
+      body .helhed_flex-1 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .helhed_flex-1 img:hover {
+          opacity: 0.5;
+          color: #fff; }
+    body .helhed_flex-2 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 100px;
+      margin-top: -10px; }
+      body .helhed_flex-2 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .helhed_flex-2 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .helhed_flex-3 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      margin-bottom: 5rem; }
+      body .helhed_flex-3 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .helhed_flex-3 img:hover {
+          opacity: 0.5;
+          color: #fff; }
+    body .helhed_flex-4 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 100px;
+      margin-top: -10px; }
+      body .helhed_flex-4 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .helhed_flex-4 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .helhed_flex-5 {
+      width: 30%;
+      margin: 0.7rem;
+      height: 160px;
+      margin-top: -40px; }
+      body .helhed_flex-5 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+        body .helhed_flex-5 img:hover {
+          opacity: 0.5;
+          color: #fff; }
+    body .helhed_flex-6 {
+      width: 40%;
+      margin: 0.7rem;
+      height: 130px;
+      margin-top: -40px; }
+      body .helhed_flex-6 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+        body .helhed_flex-6 img:hover {
+          opacity: 0.5;
+          color: #fff; }
+    body .indsats_flex-2 {
+      margin: 1.0rem;
+      min-width: 75%;
+      height: 100px; }
+      body .indsats_flex-2 h1 {
+        font-family: "Muli";
+        font-size: 42px;
+        text-align: center; }
+    body .indsats_flex-3 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left; }
+      body .indsats_flex-3 img {
+        width: 100%;
+        max-height: 300px; }
+    body .indsats_flex-4 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left;
+      margin-top: 0px;
+      font-family: "Muli"; }
+      body .indsats_flex-4 h1 {
+        font-family: "Muli";
+        font-size: 18px; }
+      body .indsats_flex-4 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 15px;
+        font-family: "Muli"; }
+    body .indsats_flex-5 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left; }
+      body .indsats_flex-5 img {
+        width: 100%;
+        max-height: 300px; }
+    body .indsats_flex-6 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left;
+      margin-top: 0px;
+      font-family: "Muli";
+      margin-bottom: 70px; }
+      body .indsats_flex-6 h1 {
+        font-family: "Muli";
+        font-size: 18px; }
+        body .indsats_flex-6 h1 p {
+          width: 100%;
+          max-height: 300px;
+          font-size: 15px;
+          font-family: "Muli"; }
+    body .indsats_flex-7 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      margin-top: 10px;
+      float: left;
+      margin-bottom: 50px; }
+      body .indsats_flex-7 img {
+        width: 100%;
+        max-height: 300px; }
+    body .indsats_flex-8 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left;
+      margin-top: 0px;
+      font-family: "Muli"; }
+      body .indsats_flex-8 h1 {
+        font-family: "Muli";
+        font-size: 18px; }
+      body .indsats_flex-8 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 15px;
+        font-family: "Muli"; }
+    body .aktivitet_flex-1 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 200px;
+      margin-bottom: 1rem; }
+      body .aktivitet_flex-1 img {
+        width: 100%;
+        max-height: 200px;
+        transition: 0.5s; }
+        body .aktivitet_flex-1 img:hover {
+          opacity: 0.5; }
+    body .aktivitet_flex-2 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 200px;
+      margin-top: -0.5rem; }
+      body .aktivitet_flex-2 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .aktivitet_flex-2 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .aktivitet_flex-4 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      margin-bottom: 3rem;
+      margin-top: 1rem; }
+      body .aktivitet_flex-4 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .aktivitet_flex-4 img:hover {
+          opacity: 0.5; }
+    body .aktivitet_flex-5 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      margin-top: -5px; }
+      body .aktivitet_flex-5 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .aktivitet_flex-5 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .aktivitet_flex-7 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      margin-bottom: 0rem;
+      margin-top: -5rem; }
+      body .aktivitet_flex-7 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .aktivitet_flex-7 img:hover {
+          opacity: 0.5; }
+    body .aktivitet_flex-8 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      margin-top: -105px; }
+      body .aktivitet_flex-8 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .aktivitet_flex-8 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .aktivitet_flex-9 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      margin-bottom: 1rem;
+      margin-top: -2rem; }
+      body .aktivitet_flex-9 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .aktivitet_flex-9 img:hover {
+          opacity: 0.5; }
+    body .aktivitet_flex-10 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 100px;
+      font-size: 22px;
+      margin-top: -52px; }
+      body .aktivitet_flex-10 p {
+        width: 100%;
+        max-height: 250px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .aktivitet_flex-10 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .aktivitetbrand_flex-1 {
+      margin: 1.0rem;
+      min-width: 50%;
+      height: 100px; }
+      body .aktivitetbrand_flex-1 h1 {
+        font-family: "Muli";
+        font-size: 33px;
+        text-align: center; }
+    body .aktivitetbrand_flex-2 {
+      margin: 1.0rem;
+      min-width: 60%;
+      height: 300px;
+      float: left; }
+      body .aktivitetbrand_flex-2 img {
+        width: 100%;
+        max-height: 300px; }
+    body .aktivitetbrand_flex-3 {
+      margin: 1.0rem;
+      min-width: 60%;
+      height: 300px;
+      float: left;
+      margin-top: -3px;
+      margin-bottom: 120px; }
+      body .aktivitetbrand_flex-3 h1 {
+        width: 100%;
+        max-height: 300px;
+        font-size: 20px;
+        font-family: "Muli"; }
+      body .aktivitetbrand_flex-3 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 15px;
+        font-family: "Muli"; }
+    body .aktivitetbrand_flex-4 {
+      margin: 1.0rem;
+      min-width: 60%;
+      height: 250px;
+      float: left;
+      margin-top: -20px; }
+      body .aktivitetbrand_flex-4 img {
+        width: 100%;
+        max-height: 250px; }
+    body .raadgivning_flex-1 {
+      min-width: 45%;
+      height: 300px;
+      margin-top: 30px; }
+      body .raadgivning_flex-1 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-1 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-2 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 18px; }
+      body .raadgivning_flex-2 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-2 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-3 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: -18px; }
+      body .raadgivning_flex-3 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-3 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-4 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: -30px; }
+      body .raadgivning_flex-4 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-4 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-5 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-5 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-5 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-6 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 29px; }
+      body .raadgivning_flex-6 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-6 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-7 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-7 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-7 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-8 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 29px; }
+      body .raadgivning_flex-8 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-8 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-9 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-9 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-9 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-10 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 29px; }
+      body .raadgivning_flex-10 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-10 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-11 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-11 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-11 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-12 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 29px; }
+      body .raadgivning_flex-12 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-12 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-13 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-13 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-13 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-14 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 29px; }
+      body .raadgivning_flex-14 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-14 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-15 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-15 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-15 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-16 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 29px; }
+      body .raadgivning_flex-16 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-16 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-17 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-17 img {
+        width: 100%;
+        max-height: 300px; }
+      body .raadgivning_flex-17 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-18 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 29px;
+      margin-bottom: 20px; }
+      body .raadgivning_flex-18 p {
+        font-family: "Muli";
+        font-size: 15px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-18 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .wrapper2 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row; }
+    body .oko-overskrift {
+      margin: 1.0rem;
+      min-width: 75%;
+      height: 300px; }
+      body .oko-overskrift h1 {
+        font-family: "Muli";
+        font-size: 33px;
+        text-align: center; }
+    body .raad-1 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left;
+      margin-left: 0px;
+      margin-top: -120px; }
+      body .raad-1 img {
+        width: 100%;
+        max-height: 300px; }
+    body .raad-2 {
+      display: inline-block;
+      width: 45%;
+      margin-left: 20px;
+      font-family: "Muli";
+      margin-top: -140PX; }
+    body .presse_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      max-height: auto;
+      max-width: 100%;
+      width: 100%;
+      margin: 0px;
+      justify-content: center;
+      margin-top: 1rem; }
+      body .presse_wrapper .presse_flex-1 {
+        margin: 0rem;
+        min-width: 100%;
+        height: 120px; }
+        body .presse_wrapper .presse_flex-1 img {
+          border: solid;
+          border-color: black;
+          width: 100%;
+          max-height: 230px;
+          transition: 0.5s; }
+        body .presse_wrapper .presse_flex-1 img:hover {
+          opacity: 0.3; }
+      body .presse_wrapper .presse_flex-2 {
+        margin: 0rem;
+        min-width: 100%;
+        height: 250px; }
+        body .presse_wrapper .presse_flex-2 img {
+          border: solid;
+          border-color: black;
+          width: 100%;
+          max-height: 230px;
+          transition: 0.5s; }
+        body .presse_wrapper .presse_flex-2 img:hover {
+          opacity: 0.3; }
+      body .presse_wrapper .presse_flex-3 {
+        margin: 0rem;
+        width: 100%;
+        height: 120px; }
+        body .presse_wrapper .presse_flex-3 img {
+          border: solid;
+          border-color: black;
+          width: 100%;
+          max-height: 230px;
+          transition: 0.5s; }
+        body .presse_wrapper .presse_flex-3 img:hover {
+          opacity: 0.3; }
+      body .presse_wrapper .presse_flex-4 {
+        margin: 0rem;
+        min-width: 100%;
+        height: 100px; }
+        body .presse_wrapper .presse_flex-4 img {
+          border: solid;
+          border-color: black;
+          width: 100%;
+          max-height: 100px;
+          transition: 0.5s; }
+        body .presse_wrapper .presse_flex-4 img:hover {
+          opacity: 0.3; }
+    body .presse_flex-7 {
+      width: 32%;
+      margin: 0.5rem;
+      margin-left: 700px;
+      margin-right: 200px; }
+      body .presse_flex-7 iframe {
+        width: 100%;
+        max-height: 230px; }
+    body .video {
+      padding-left: 0%;
+      position: center;
+      padding-bottom: 50%;
+      padding-right: 60%;
+      margin-right: 200px;
+      padding-top: 4%; }
+    body .kontakt_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      max-height: auto;
+      max-width: 100%;
+      width: 100%;
+      margin: 0px;
+      justify-content: center;
+      margin-top: 0.5rem;
+      background-image: url(img/cork-board.jpg); }
+      body .kontakt_wrapper .kontakt_flex-1 {
+        margin: 0.5rem;
+        min-width: 45%;
+        height: 330px; }
+        body .kontakt_wrapper .kontakt_flex-1 img {
+          width: 100%;
+          height: auto; }
+      body .kontakt_wrapper .kontakt_flex-2 {
+        margin: 0.5rem;
+        min-width: 45%; }
+        body .kontakt_wrapper .kontakt_flex-2 img {
+          width: 100%;
+          max-height: auto; }
+      body .kontakt_wrapper .kontakt_flex-3 {
+        margin: 0.5rem;
+        min-width: 45%;
+        margin-top: -90px; }
+        body .kontakt_wrapper .kontakt_flex-3 img {
+          width: 100%;
+          max-height: auto; }
+      body .kontakt_wrapper .kontakt_flex-4 {
+        margin: 0.5rem;
+        min-width: 45%;
+        height: 230px;
+        margin-top: -90px; }
+        body .kontakt_wrapper .kontakt_flex-4 img {
+          width: 100%;
+          max-height: auto; }
+      body .kontakt_wrapper .kontakt_flex-5 {
+        min-width: 45%;
+        margin: 0.5rem;
+        height: 420px;
+        margin-top: -60px; }
+        body .kontakt_wrapper .kontakt_flex-5 img {
+          width: 100%;
+          height: auto; }
+      body .kontakt_wrapper .kontakt_flex-6 {
+        min-width: 45%;
+        margin: 0.5rem;
+        margin-top: -70px; }
+        body .kontakt_wrapper .kontakt_flex-6 img {
+          width: 100%;
+          height: auto; }
+    body footer {
+      height: 0px;
+      text-align: center;
+      margin-top: 10px;
+      font-family: "Muli"; }
+    body .footer_presse {
+      height: 30px;
+      text-align: center;
+      margin-top: 0px;
+      font-family: "Muli"; } }
+@media only screen and (max-width: 1200px) {
+  body {
+    /*økonomisk rådgivning*/ }
+    body header img {
+      height: auto;
+      width: 100%;
+      /*margin-left: 0.4%; */ }
+    body header .navigation {
+      overflow: hidden;
+      background-color: #6c809b;
+      font-family: "Muli"; }
+      body header .navigation a {
+        float: left;
+        font-size: 8px;
+        color: white;
+        text-align: center;
+        margin-left: 9%;
+        text-decoration: none;
+        margin-bottom: 0px;
+        justify-content: center; }
+        body header .navigation a li {
+          display: inline-block;
+          margin-left: 0px;
+          font-size: 24px;
+          padding-bottom: 14px;
+          padding-top: 0px; }
+      body header .navigation .drop {
+        float: left;
+        overflow: hidden; }
+        body header .navigation .drop .button {
+          cursor: pointer;
+          font-size: 16px;
+          border: none;
+          outline: none;
+          color: white;
+          padding: 14px 16px;
+          background-color: inherit; }
+    body .flex-1 {
+      margin: 0.5rem;
+      min-width: 40%;
+      height: 230px; }
+      body .flex-1 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-1 img:hover {
+        opacity: 0.3; }
+    body .flex-2 {
+      margin: 0.5rem;
+      min-width: 40%; }
+      body .flex-2 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-2 img:hover {
+        opacity: 0.3; }
+    body .flex-3 {
+      margin: 0.5rem;
+      min-width: 40%; }
+      body .flex-3 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-3 img:hover {
+        opacity: 0.3; }
+    body .flex-4 {
+      margin: 0.5rem;
+      min-width: 40%;
+      height: 230px; }
+      body .flex-4 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-4 img:hover {
+        opacity: 0.3; }
+    body .flex-5 {
+      min-width: 40%;
+      margin: 0.5rem; }
+      body .flex-5 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-5 img:hover {
+        opacity: 0.3; }
+    body .flex-6 {
+      min-width: 40%;
+      margin: 0.5rem; }
+      body .flex-6 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-6 img:hover {
+        opacity: 0.3; }
+    body .flex-7 {
+      min-width: 40%;
+      margin: 0.5rem; }
+      body .flex-7 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-7 img:hover {
+        opacity: 0.3; }
+    body .flex-8 {
+      min-width: 40%;
+      margin: 0.5rem; }
+      body .flex-8 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-8 img:hover {
+        opacity: 0.3; }
+    body .flex-9 {
+      min-width: 40%;
+      margin: 0.5rem; }
+      body .flex-9 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-9 img:hover {
+        opacity: 0.3; }
+    body .helhed_flex-1 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: auto;
+      margin-bottom: 5rem; }
+      body .helhed_flex-1 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .helhed_flex-1 img:hover {
+          opacity: 0.5;
+          color: #fff; }
+    body .helhed_flex-2 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 100px;
+      margin-top: -10px; }
+      body .helhed_flex-2 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .helhed_flex-2 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .helhed_flex-3 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      margin-bottom: 5rem; }
+      body .helhed_flex-3 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .helhed_flex-3 img:hover {
+          opacity: 0.5;
+          color: #fff; }
+    body .helhed_flex-4 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 100px;
+      margin-top: -10px; }
+      body .helhed_flex-4 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .helhed_flex-4 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .helhed_flex-5 {
+      width: 30%;
+      margin: 0.7rem;
+      height: 160px;
+      margin-top: 20px;
+      margin-bottom: 90px; }
+      body .helhed_flex-5 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+        body .helhed_flex-5 img:hover {
+          opacity: 0.5;
+          color: #fff; }
+    body .helhed_flex-6 {
+      width: 40%;
+      margin: 0.7rem;
+      height: 130px;
+      margin-top: 20px;
+      margin-bottom: 40px; }
+      body .helhed_flex-6 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+        body .helhed_flex-6 img:hover {
+          opacity: 0.5;
+          color: #fff; }
+    body .indsats_flex-2 {
+      margin: 1.0rem;
+      min-width: 75%;
+      height: 100px; }
+      body .indsats_flex-2 h1 {
+        font-family: "Muli";
+        font-size: 42px;
+        text-align: center; }
+    body .indsats_flex-3 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left; }
+      body .indsats_flex-3 img {
+        width: 100%;
+        max-height: 300px; }
+    body .indsats_flex-4 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left;
+      margin-top: 0px;
+      font-family: "Muli"; }
+      body .indsats_flex-4 h1 {
+        font-family: "Muli";
+        font-size: 18px; }
+      body .indsats_flex-4 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 15px;
+        font-family: "Muli"; }
+    body .indsats_flex-5 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left; }
+      body .indsats_flex-5 img {
+        width: 100%;
+        max-height: 300px; }
+    body .indsats_flex-6 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left;
+      margin-top: 0px;
+      font-family: "Muli";
+      margin-bottom: 70px; }
+      body .indsats_flex-6 h1 {
+        font-family: "Muli";
+        font-size: 18px; }
+        body .indsats_flex-6 h1 p {
+          width: 100%;
+          max-height: 300px;
+          font-size: 15px;
+          font-family: "Muli"; }
+    body .indsats_flex-7 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      margin-top: 10px;
+      float: left;
+      margin-bottom: 50px; }
+      body .indsats_flex-7 img {
+        width: 100%;
+        max-height: 300px; }
+    body .indsats_flex-8 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left;
+      margin-top: 0px;
+      font-family: "Muli"; }
+      body .indsats_flex-8 h1 {
+        font-family: "Muli";
+        font-size: 18px; }
+      body .indsats_flex-8 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 15px;
+        font-family: "Muli"; }
+    body .aktivitet_flex-1 {
+      margin: 1.0rem;
+      min-width: 40%;
+      height: 200px;
+      margin-bottom: 7rem; }
+      body .aktivitet_flex-1 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .aktivitet_flex-1 img:hover {
+          opacity: 0.5; }
+    body .aktivitet_flex-2 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 200px;
+      margin-top: -0.5rem; }
+      body .aktivitet_flex-2 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .aktivitet_flex-2 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .aktivitet_flex-4 {
+      margin: 1.0rem;
+      min-width: 40%;
+      height: 300px;
+      margin-bottom: 7rem;
+      margin-top: 1rem; }
+      body .aktivitet_flex-4 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .aktivitet_flex-4 img:hover {
+          opacity: 0.5; }
+    body .aktivitet_flex-5 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      margin-top: -5px; }
+      body .aktivitet_flex-5 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .aktivitet_flex-5 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .aktivitet_flex-7 {
+      margin: 1.0rem;
+      min-width: 40%;
+      height: 300px;
+      margin-bottom: 4rem;
+      margin-top: -5rem; }
+      body .aktivitet_flex-7 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .aktivitet_flex-7 img:hover {
+          opacity: 0.5; }
+    body .aktivitet_flex-8 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      margin-top: -105px; }
+      body .aktivitet_flex-8 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .aktivitet_flex-8 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .aktivitet_flex-9 {
+      margin: 1.0rem;
+      min-width: 40%;
+      height: 300px;
+      margin-bottom: 1rem;
+      margin-top: -2rem; }
+      body .aktivitet_flex-9 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .aktivitet_flex-9 img:hover {
+          opacity: 0.5; }
+    body .aktivitet_flex-10 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 100px;
+      font-size: 22px;
+      margin-top: -52px; }
+      body .aktivitet_flex-10 p {
+        width: 100%;
+        max-height: 250px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .aktivitet_flex-10 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .aktivitetbrand_flex-1 {
+      margin: 1.0rem;
+      min-width: 50%;
+      height: 100px; }
+      body .aktivitetbrand_flex-1 h1 {
+        font-family: "Muli";
+        font-size: 33px;
+        text-align: center; }
+    body .aktivitetbrand_flex-2 {
+      margin: 1.0rem;
+      min-width: 50%;
+      height: 300px;
+      float: left; }
+      body .aktivitetbrand_flex-2 img {
+        width: 100%;
+        max-height: 300px; }
+    body .aktivitetbrand_flex-3 {
+      margin: 1.0rem;
+      min-width: 50%;
+      height: 300px;
+      float: left;
+      margin-top: -3px;
+      margin-bottom: 120px; }
+      body .aktivitetbrand_flex-3 h1 {
+        width: 100%;
+        max-height: 300px;
+        font-size: 20px;
+        font-family: "Muli"; }
+      body .aktivitetbrand_flex-3 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 15px;
+        font-family: "Muli"; }
+    body .aktivitetbrand_flex-4 {
+      margin: 1.0rem;
+      min-width: 50%;
+      height: 250px;
+      float: left;
+      margin-top: -20px; }
+      body .aktivitetbrand_flex-4 img {
+        width: 100%;
+        max-height: 250px; }
+    body .raadgivning_flex-1 {
+      min-width: 45%;
+      height: 300px;
+      margin-top: 30px;
+      margin-bottom: 4rem; }
+      body .raadgivning_flex-1 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-1 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-2 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 1px; }
+      body .raadgivning_flex-2 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-2 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-3 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: -18px; }
+      body .raadgivning_flex-3 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-3 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-4 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: -45px; }
+      body .raadgivning_flex-4 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-4 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-5 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-5 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-5 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-6 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 13px; }
+      body .raadgivning_flex-6 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-6 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-7 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-7 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-7 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-8 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 13px; }
+      body .raadgivning_flex-8 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-8 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-9 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-9 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-9 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-10 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 13px; }
+      body .raadgivning_flex-10 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-10 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-11 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-11 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-11 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-12 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 14px; }
+      body .raadgivning_flex-12 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-12 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-13 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-13 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-13 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-14 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 14px; }
+      body .raadgivning_flex-14 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-14 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-15 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-15 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-15 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-16 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 14px; }
+      body .raadgivning_flex-16 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-16 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-17 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-17 img {
+        width: 100%;
+        max-height: 300px; }
+      body .raadgivning_flex-17 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-18 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 14px;
+      margin-bottom: 20px; }
+      body .raadgivning_flex-18 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-18 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .wrapper2 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row; }
+    body .oko-overskrift {
+      margin: 1.0rem;
+      min-width: 75%;
+      height: 300px; }
+      body .oko-overskrift h1 {
+        font-family: "Muli";
+        font-size: 33px;
+        text-align: center; }
+    body .raad-1 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left;
+      margin-left: 0px;
+      margin-top: -120px; }
+      body .raad-1 img {
+        width: 100%;
+        max-height: 300px; }
+    body .raad-2 {
+      display: inline-block;
+      width: 45%;
+      margin-left: 20px;
+      font-family: "Muli";
+      margin-top: -140PX; }
+    body .presse_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      max-height: auto;
+      max-width: 100%;
+      width: 100%;
+      margin: 0px;
+      justify-content: center;
+      margin-top: 1rem; }
+      body .presse_wrapper .presse_flex-1 {
+        margin: 0rem;
+        min-width: 100%;
+        height: 220px; }
+        body .presse_wrapper .presse_flex-1 img {
+          border: solid;
+          border-color: black;
+          width: 100%;
+          max-height: 230px;
+          transition: 0.5s; }
+        body .presse_wrapper .presse_flex-1 img:hover {
+          opacity: 0.3; }
+      body .presse_wrapper .presse_flex-2 {
+        margin: 0rem;
+        min-width: 100%;
+        height: 350px; }
+        body .presse_wrapper .presse_flex-2 img {
+          border: solid;
+          border-color: black;
+          width: 100%;
+          max-height: 330px;
+          transition: 0.5s; }
+        body .presse_wrapper .presse_flex-2 img:hover {
+          opacity: 0.3; }
+      body .presse_wrapper .presse_flex-3 {
+        margin: 0rem;
+        width: 100%;
+        height: 150px; }
+        body .presse_wrapper .presse_flex-3 img {
+          border: solid;
+          border-color: black;
+          width: 100%;
+          max-height: 230px;
+          transition: 0.5s; }
+        body .presse_wrapper .presse_flex-3 img:hover {
+          opacity: 0.3; }
+      body .presse_wrapper .presse_flex-4 {
+        margin: 0rem;
+        min-width: 100%;
+        height: auto;
+        height: 200px; }
+        body .presse_wrapper .presse_flex-4 img {
+          border: solid;
+          border-color: black;
+          width: 100%;
+          height: auto;
+          max-height: 200px;
+          transition: 0.5s; }
+        body .presse_wrapper .presse_flex-4 img:hover {
+          opacity: 0.3; }
+    body .presse_flex-7 {
+      width: 32%;
+      margin: 0.5rem;
+      margin-left: 700px;
+      margin-right: 200px; }
+      body .presse_flex-7 iframe {
+        width: 100%;
+        max-height: 230px; }
+    body .video {
+      padding-left: 0%;
+      position: center;
+      padding-bottom: 50%;
+      padding-right: 60%;
+      margin-right: 200px;
+      padding-top: 4%; }
+    body .kontakt_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      max-height: auto;
+      max-width: 100%;
+      width: 100%;
+      margin: 0px;
+      justify-content: center;
+      margin-top: 0.5rem;
+      background-image: url(img/cork-board.jpg); }
+      body .kontakt_wrapper .kontakt_flex-1 {
+        margin: 0.5rem;
+        min-width: 45%;
+        height: 330px; }
+        body .kontakt_wrapper .kontakt_flex-1 img {
+          width: 100%;
+          height: auto; }
+      body .kontakt_wrapper .kontakt_flex-2 {
+        margin: 0.5rem;
+        min-width: 45%; }
+        body .kontakt_wrapper .kontakt_flex-2 img {
+          width: 100%;
+          max-height: auto; }
+      body .kontakt_wrapper .kontakt_flex-3 {
+        margin: 0.5rem;
+        min-width: 45%;
+        margin-top: -90px; }
+        body .kontakt_wrapper .kontakt_flex-3 img {
+          width: 100%;
+          max-height: auto; }
+      body .kontakt_wrapper .kontakt_flex-4 {
+        margin: 0.5rem;
+        min-width: 45%;
+        height: 230px;
+        margin-top: -90px; }
+        body .kontakt_wrapper .kontakt_flex-4 img {
+          width: 100%;
+          max-height: auto; }
+      body .kontakt_wrapper .kontakt_flex-5 {
+        min-width: 45%;
+        margin: 0.5rem;
+        height: 420px;
+        margin-top: -60px; }
+        body .kontakt_wrapper .kontakt_flex-5 img {
+          width: 100%;
+          height: auto; }
+      body .kontakt_wrapper .kontakt_flex-6 {
+        min-width: 45%;
+        margin: 0.5rem;
+        margin-top: -70px; }
+        body .kontakt_wrapper .kontakt_flex-6 img {
+          width: 100%;
+          height: auto; }
+    body footer {
+      height: 0px;
+      text-align: center;
+      margin-top: 10px;
+      font-family: "Muli"; }
+    body .footer_presse {
+      height: 30px;
+      text-align: center;
+      margin-top: 0px;
+      font-family: "Muli"; } }
+@media only screen and (max-width: 1200px) and (max-width: 1600px) {
+  body {
+    /*økonomisk rådgivning*/ }
+    body header img {
+      height: auto;
+      width: 100%;
+      margin-left: 9%;
+      /*margin-left: 0.4%; */ }
+    body header .navigation {
+      overflow: hidden;
+      background-color: #6c809b;
+      font-family: "Muli"; }
+      body header .navigation nav a {
+        float: left;
+        font-size: 8px;
+        color: white;
+        text-align: center;
+        margin-left: 11%;
+        text-decoration: none;
+        margin-bottom: 0px;
+        justify-content: center; }
+        body header .navigation nav a li {
+          width: 75%;
+          display: inline-block;
+          margin-left: 0px;
+          font-size: 24px;
+          padding-bottom: 14px;
+          padding-top: 0px; }
+      body header .navigation .drop {
+        width: 75%;
+        float: left;
+        overflow: hidden; }
+        body header .navigation .drop .button {
+          cursor: pointer;
+          font-size: 16px;
+          border: none;
+          outline: none;
+          color: white;
+          padding: 14px 16px;
+          background-color: inherit; }
+    body .flex-1 {
+      margin: 0.5rem;
+      min-width: 40%;
+      height: 230px; }
+      body .flex-1 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-1 img:hover {
+        opacity: 0.3; }
+    body .flex-2 {
+      margin: 0.5rem;
+      min-width: 40%; }
+      body .flex-2 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-2 img:hover {
+        opacity: 0.3; }
+    body .flex-3 {
+      margin: 0.5rem;
+      min-width: 40%; }
+      body .flex-3 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-3 img:hover {
+        opacity: 0.3; }
+    body .flex-4 {
+      margin: 0.5rem;
+      min-width: 40%;
+      height: 230px; }
+      body .flex-4 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-4 img:hover {
+        opacity: 0.3; }
+    body .flex-5 {
+      min-width: 40%;
+      margin: 0.5rem; }
+      body .flex-5 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-5 img:hover {
+        opacity: 0.3; }
+    body .flex-6 {
+      min-width: 40%;
+      margin: 0.5rem; }
+      body .flex-6 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-6 img:hover {
+        opacity: 0.3; }
+    body .flex-7 {
+      min-width: 40%;
+      margin: 0.5rem; }
+      body .flex-7 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-7 img:hover {
+        opacity: 0.3; }
+    body .flex-8 {
+      min-width: 40%;
+      margin: 0.5rem; }
+      body .flex-8 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-8 img:hover {
+        opacity: 0.3; }
+    body .flex-9 {
+      min-width: 40%;
+      margin: 0.5rem; }
+      body .flex-9 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+      body .flex-9 img:hover {
+        opacity: 0.3; }
+    body .helhed_flex-1 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: auto;
+      margin-bottom: 5rem; }
+      body .helhed_flex-1 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .helhed_flex-1 img:hover {
+          opacity: 0.5;
+          color: #fff; }
+    body .helhed_flex-2 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 100px;
+      margin-top: -10px; }
+      body .helhed_flex-2 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .helhed_flex-2 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .helhed_flex-3 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      margin-bottom: 5rem; }
+      body .helhed_flex-3 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .helhed_flex-3 img:hover {
+          opacity: 0.5;
+          color: #fff; }
+    body .helhed_flex-4 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 100px;
+      margin-top: -10px; }
+      body .helhed_flex-4 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .helhed_flex-4 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .helhed_flex-5 {
+      width: 30%;
+      margin: 0.7rem;
+      height: 160px;
+      margin-top: 20px;
+      margin-bottom: 90px; }
+      body .helhed_flex-5 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+        body .helhed_flex-5 img:hover {
+          opacity: 0.5;
+          color: #fff; }
+    body .helhed_flex-6 {
+      width: 40%;
+      margin: 0.7rem;
+      height: 130px;
+      margin-top: 20px;
+      margin-bottom: 40px; }
+      body .helhed_flex-6 img {
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s; }
+        body .helhed_flex-6 img:hover {
+          opacity: 0.5;
+          color: #fff; }
+    body .indsats_flex-2 {
+      margin: 1.0rem;
+      min-width: 75%;
+      height: 100px; }
+      body .indsats_flex-2 h1 {
+        font-family: "Muli";
+        font-size: 42px;
+        text-align: center; }
+    body .indsats_flex-3 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left; }
+      body .indsats_flex-3 img {
+        width: 100%;
+        max-height: 300px; }
+    body .indsats_flex-4 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left;
+      margin-top: 0px;
+      font-family: "Muli"; }
+      body .indsats_flex-4 h1 {
+        font-family: "Muli";
+        font-size: 18px; }
+      body .indsats_flex-4 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 15px;
+        font-family: "Muli"; }
+    body .indsats_flex-5 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left; }
+      body .indsats_flex-5 img {
+        width: 100%;
+        max-height: 300px; }
+    body .indsats_flex-6 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left;
+      margin-top: 0px;
+      font-family: "Muli";
+      margin-bottom: 70px; }
+      body .indsats_flex-6 h1 {
+        font-family: "Muli";
+        font-size: 18px; }
+        body .indsats_flex-6 h1 p {
+          width: 100%;
+          max-height: 300px;
+          font-size: 15px;
+          font-family: "Muli"; }
+    body .indsats_flex-7 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      margin-top: 10px;
+      float: left;
+      margin-bottom: 50px; }
+      body .indsats_flex-7 img {
+        width: 100%;
+        max-height: 300px; }
+    body .indsats_flex-8 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left;
+      margin-top: 0px;
+      font-family: "Muli"; }
+      body .indsats_flex-8 h1 {
+        font-family: "Muli";
+        font-size: 18px; }
+      body .indsats_flex-8 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 15px;
+        font-family: "Muli"; }
+    body .aktivitet_flex-1 {
+      margin: 1.0rem;
+      min-width: 40%;
+      height: 200px;
+      margin-bottom: 7rem; }
+      body .aktivitet_flex-1 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .aktivitet_flex-1 img:hover {
+          opacity: 0.5; }
+    body .aktivitet_flex-2 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 200px;
+      margin-top: -0.5rem; }
+      body .aktivitet_flex-2 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .aktivitet_flex-2 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .aktivitet_flex-4 {
+      margin: 1.0rem;
+      min-width: 40%;
+      height: 300px;
+      margin-bottom: 7rem;
+      margin-top: 1rem; }
+      body .aktivitet_flex-4 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .aktivitet_flex-4 img:hover {
+          opacity: 0.5; }
+    body .aktivitet_flex-5 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      margin-top: -5px; }
+      body .aktivitet_flex-5 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .aktivitet_flex-5 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .aktivitet_flex-7 {
+      margin: 1.0rem;
+      min-width: 40%;
+      height: 300px;
+      margin-bottom: 4rem;
+      margin-top: -5rem; }
+      body .aktivitet_flex-7 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .aktivitet_flex-7 img:hover {
+          opacity: 0.5; }
+    body .aktivitet_flex-8 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      margin-top: -105px; }
+      body .aktivitet_flex-8 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .aktivitet_flex-8 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .aktivitet_flex-9 {
+      margin: 1.0rem;
+      min-width: 40%;
+      height: 300px;
+      margin-bottom: 1rem;
+      margin-top: -2rem; }
+      body .aktivitet_flex-9 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+        body .aktivitet_flex-9 img:hover {
+          opacity: 0.5; }
+    body .aktivitet_flex-10 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 100px;
+      font-size: 22px;
+      margin-top: -52px; }
+      body .aktivitet_flex-10 p {
+        width: 100%;
+        max-height: 250px;
+        font-size: 22px;
+        font-family: "Muli"; }
+        body .aktivitet_flex-10 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .aktivitetbrand_flex-1 {
+      margin: 1.0rem;
+      min-width: 50%;
+      height: 100px; }
+      body .aktivitetbrand_flex-1 h1 {
+        font-family: "Muli";
+        font-size: 33px;
+        text-align: center; }
+    body .aktivitetbrand_flex-2 {
+      margin: 1.0rem;
+      min-width: 50%;
+      height: 300px;
+      float: left; }
+      body .aktivitetbrand_flex-2 img {
+        width: 100%;
+        max-height: 300px; }
+    body .aktivitetbrand_flex-3 {
+      margin: 1.0rem;
+      min-width: 50%;
+      height: 300px;
+      float: left;
+      margin-top: -3px;
+      margin-bottom: 120px; }
+      body .aktivitetbrand_flex-3 h1 {
+        width: 100%;
+        max-height: 300px;
+        font-size: 20px;
+        font-family: "Muli"; }
+      body .aktivitetbrand_flex-3 p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 15px;
+        font-family: "Muli"; }
+    body .aktivitetbrand_flex-4 {
+      margin: 1.0rem;
+      min-width: 50%;
+      height: 250px;
+      float: left;
+      margin-top: -20px; }
+      body .aktivitetbrand_flex-4 img {
+        width: 100%;
+        max-height: 250px; }
+    body .raadgivning_flex-1 {
+      min-width: 45%;
+      height: 300px;
+      margin-top: 30px;
+      margin-bottom: 4rem; }
+      body .raadgivning_flex-1 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-1 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-2 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 1px; }
+      body .raadgivning_flex-2 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-2 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-3 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: -18px; }
+      body .raadgivning_flex-3 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-3 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-4 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: -45px; }
+      body .raadgivning_flex-4 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-4 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-5 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-5 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-5 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-6 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 13px; }
+      body .raadgivning_flex-6 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-6 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-7 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-7 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-7 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-8 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 13px; }
+      body .raadgivning_flex-8 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-8 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-9 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-9 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-9 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-10 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 13px; }
+      body .raadgivning_flex-10 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-10 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-11 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-11 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-11 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-12 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 14px; }
+      body .raadgivning_flex-12 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-12 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-13 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-13 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-13 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-14 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 14px; }
+      body .raadgivning_flex-14 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-14 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-15 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-15 img {
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s; }
+      body .raadgivning_flex-15 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-16 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 14px; }
+      body .raadgivning_flex-16 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-16 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .raadgivning_flex-17 {
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px; }
+      body .raadgivning_flex-17 img {
+        width: 100%;
+        max-height: 300px; }
+      body .raadgivning_flex-17 img:hover {
+        opacity: 0.3; }
+    body .raadgivning_flex-18 {
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 14px;
+      margin-bottom: 20px; }
+      body .raadgivning_flex-18 p {
+        font-family: "Muli";
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px; }
+        body .raadgivning_flex-18 p a:link {
+          color: #81a22f;
+          text-decoration: none; }
+    body .wrapper2 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row; }
+    body .oko-overskrift {
+      margin: 1.0rem;
+      min-width: 75%;
+      height: 300px; }
+      body .oko-overskrift h1 {
+        font-family: "Muli";
+        font-size: 33px;
+        text-align: center; }
+    body .raad-1 {
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left;
+      margin-left: 0px;
+      margin-top: -120px; }
+      body .raad-1 img {
+        width: 100%;
+        max-height: 300px; }
+    body .raad-2 {
+      display: inline-block;
+      width: 45%;
+      margin-left: 20px;
+      font-family: "Muli";
+      margin-top: -140PX; }
+    body .presse_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      max-height: auto;
+      max-width: 100%;
+      width: 100%;
+      margin: 0px;
+      justify-content: center;
+      margin-top: 1rem; }
+      body .presse_wrapper .presse_flex-1 {
+        margin: 0rem;
+        min-width: 100%;
+        height: 220px; }
+        body .presse_wrapper .presse_flex-1 img {
+          border: solid;
+          border-color: black;
+          width: 100%;
+          max-height: 230px;
+          transition: 0.5s; }
+        body .presse_wrapper .presse_flex-1 img:hover {
+          opacity: 0.3; }
+      body .presse_wrapper .presse_flex-2 {
+        margin: 0rem;
+        min-width: 100%;
+        height: 350px; }
+        body .presse_wrapper .presse_flex-2 img {
+          border: solid;
+          border-color: black;
+          width: 100%;
+          max-height: 330px;
+          transition: 0.5s; }
+        body .presse_wrapper .presse_flex-2 img:hover {
+          opacity: 0.3; }
+      body .presse_wrapper .presse_flex-3 {
+        margin: 0rem;
+        width: 100%;
+        height: 150px; }
+        body .presse_wrapper .presse_flex-3 img {
+          border: solid;
+          border-color: black;
+          width: 100%;
+          max-height: 230px;
+          transition: 0.5s; }
+        body .presse_wrapper .presse_flex-3 img:hover {
+          opacity: 0.3; }
+      body .presse_wrapper .presse_flex-4 {
+        margin: 0rem;
+        min-width: 100%;
+        height: auto;
+        height: 200px; }
+        body .presse_wrapper .presse_flex-4 img {
+          border: solid;
+          border-color: black;
+          width: 100%;
+          height: auto;
+          max-height: 200px;
+          transition: 0.5s; }
+        body .presse_wrapper .presse_flex-4 img:hover {
+          opacity: 0.3; }
+    body .presse_flex-7 {
+      width: 32%;
+      margin: 0.5rem;
+      margin-left: 700px;
+      margin-right: 200px; }
+      body .presse_flex-7 iframe {
+        width: 100%;
+        max-height: 230px; }
+    body .video {
+      padding-left: 0%;
+      position: center;
+      padding-bottom: 50%;
+      padding-right: 60%;
+      margin-right: 200px;
+      padding-top: 4%; }
+    body .kontakt_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      max-height: auto;
+      max-width: 100%;
+      width: 100%;
+      margin: 0px;
+      justify-content: center;
+      margin-top: 0.5rem;
+      background-image: url(img/cork-board.jpg); }
+      body .kontakt_wrapper .kontakt_flex-1 {
+        margin: 0.5rem;
+        min-width: 45%;
+        height: 330px; }
+        body .kontakt_wrapper .kontakt_flex-1 img {
+          width: 100%;
+          height: auto; }
+      body .kontakt_wrapper .kontakt_flex-2 {
+        margin: 0.5rem;
+        min-width: 45%; }
+        body .kontakt_wrapper .kontakt_flex-2 img {
+          width: 100%;
+          max-height: auto; }
+      body .kontakt_wrapper .kontakt_flex-3 {
+        margin: 0.5rem;
+        min-width: 45%;
+        margin-top: -90px; }
+        body .kontakt_wrapper .kontakt_flex-3 img {
+          width: 100%;
+          max-height: auto; }
+      body .kontakt_wrapper .kontakt_flex-4 {
+        margin: 0.5rem;
+        min-width: 45%;
+        height: 230px;
+        margin-top: -90px; }
+        body .kontakt_wrapper .kontakt_flex-4 img {
+          width: 100%;
+          max-height: auto; }
+      body .kontakt_wrapper .kontakt_flex-5 {
+        min-width: 45%;
+        margin: 0.5rem;
+        height: 420px;
+        margin-top: -60px; }
+        body .kontakt_wrapper .kontakt_flex-5 img {
+          width: 100%;
+          height: auto; }
+      body .kontakt_wrapper .kontakt_flex-6 {
+        min-width: 45%;
+        margin: 0.5rem;
+        margin-top: -70px; }
+        body .kontakt_wrapper .kontakt_flex-6 img {
+          width: 100%;
+          height: auto; }
+    body footer {
+      height: 0px;
+      text-align: center;
+      margin-top: 10px;
+      font-family: "Muli"; }
+    body .footer_presse {
+      height: 30px;
+      text-align: center;
+      margin-top: 0px;
+      font-family: "Muli"; } }
+
+/*# sourceMappingURL=style.css.map */

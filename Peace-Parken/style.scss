@@ -1,0 +1,5271 @@
+@import "_mixin.scss";
+@import "_variable.scss";
+@import "_reset.scss";
+* {
+  box-sizing: border-box;
+}
+header {
+  img{
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    /*margin-left: 0.4%; */
+   }
+    nav{
+      overflow: hidden;
+      background-color: #6c809b;
+      font-family: $primaryFont;
+      a{
+        float: left;
+        margin-left: 2%;
+        font-size: 16px;
+        color: white;
+        text-decoration: none;
+        margin-bottom: 20px;
+        li{
+          display: inline-block;
+          margin-left: 100px;
+          font-size: 25px;
+
+        }
+
+    }
+    .drop{
+      float: left;
+      overflow: hidden;
+      .button{
+        cursor: pointer;font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+      }
+    }
+  }
+}
+//forside opsætning start
+body{
+  .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    margin: 0px;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  .flex-1{
+    margin: 0.5rem;
+    width: 32%;
+    height: 230px;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-2{
+    margin: 0.5rem;
+    width: 32%;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-3{
+    margin: 0.5rem;
+    width: 32%;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-4{
+    margin: 0.5rem;
+    width: 32%;
+    height: 230px;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-5{
+    width: 32%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-6{
+    width: 32%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-7{
+    width: 32%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-8{
+    width: 32%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-9{
+    width: 32%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+}
+  //---------------------her slutter forsiden------------------------
+  //---------------------ding her er aktiviteter---------------------
+  .aktivitet_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-height: auto;
+    max-width: 100%;
+    width: 100%;
+    margin: 0px;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  .aktivitet_flex-1{
+    margin: 1.0rem;
+    width: 40%;
+    height: auto;
+    margin-bottom: 5rem;
+    img{
+      width: 100%;
+      max-height: auto;
+      transition: 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+  .aktivitet_flex-2{
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    margin-top: -29px;
+
+    p{
+      width: 100%;
+      max-height: 300px;
+      font-size: 25px;
+      font-family: $primaryFont;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+
+  }
+  .aktivitet_flex-4{
+    margin: 1.0rem;
+    width: 40%;
+    height: auto;
+    margin-bottom: 5rem;
+    img{
+      width: 100%;
+      max-height: auto;
+      transition: 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+  .aktivitet_flex-5{
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    margin-top: -29px;
+
+    p{
+      width: 100%;
+      max-height: 300px;
+      font-size: 25px;
+      font-family: $primaryFont;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+
+  }
+  .aktivitet_flex-7{
+    margin: 1.0rem;
+    width: 40%;
+    height: auto;
+    margin-bottom: 5rem;
+    img{
+      width: 100%;
+      max-height: auto;
+      transition: 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+  .aktivitet_flex-8{
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    margin-top: -13px;
+
+    p{
+      width: 100%;
+      max-height: 300px;
+      font-size: 25px;
+      font-family: $primaryFont;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+
+  .aktivitet_flex-9{
+    margin: 1.0rem;
+    width: 40%;
+    height: auto;
+    margin-bottom: 5rem;
+    img{
+      width: 100%;
+      max-height: auto;
+      transition: 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+  .aktivitet_flex-10{
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    margin-top: -13px;
+    p{
+      width: 100%;
+      max-height: 300px;
+      font-size: 25px;
+      font-family: $primaryFont;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+}
+
+/*Brandkadet side starter*/
+.aktivitetbrand_flex-1{
+  margin: 1.0rem;
+  width: 72%;
+  height: 200px;
+
+  h1 {
+    font-family: $primaryFont;
+    font-size: 55px;
+    text-align: center;
+  }
+}
+
+.aktivitetbrand_flex-2{
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left;
+  img{
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+.aktivitetbrand_flex-3{
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left;
+  margin-top: -3px;
+  margin-bottom: 120px;
+
+h1{
+  width: 100%;
+  max-height: 300px;
+  font-size: 20px;
+  font-family: $primaryFont;
+}
+  p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: $primaryFont;
+    }
+   }
+
+.aktivitetbrand_flex-4 {
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left;
+  img{
+    width: 100%;
+    max-height: 300px;
+  }
+}
+}
+//
+/*Kontaktside starter*/
+//
+.kontakt_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-height: auto;
+  max-width: 100%;
+  width: 100%;
+  margin: 0px;
+  justify-content: center;
+  margin-top: 0.5rem;
+  background-image: url(img/cork-board.jpg);
+
+
+.kontakt_flex-1{
+  margin: 0.5rem;
+  width: 32%;
+  height: 230px;
+  img{
+    width: 100%;
+    height: auto;
+
+}
+}
+.kontakt_flex-2{
+  margin: 0.5rem;
+  width: 32%;
+  img{
+    width: 100%;
+    max-height: auto;
+
+}
+}
+.kontakt_flex-3{
+  margin: 0.5rem;
+  width: 32%;
+  img{
+    width: 100%;
+    max-height: auto;
+
+}
+}
+.kontakt_flex-4{
+  margin: 0.5rem;
+  width: 32%;
+  height: 230px;
+  img{
+    width: 100%;
+    max-height: auto;
+
+}
+}
+.kontakt_flex-5{
+  width: 32%;
+  margin: 0.5rem;
+  height: 520px;
+  img{
+    height: 100%;
+    width: auto;
+}
+}
+.kontakt_flex-6{
+  width: 32%;
+  margin: 0.5rem;
+  img{
+    width: 100%;
+    height: auto;
+  }
+  }
+}
+/*Presseside starter*/
+.presse_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-height: auto;
+  max-width: 100%;
+  width: 100%;
+  margin: 0px;
+  justify-content: center;
+  margin-top: 0.5rem;
+
+
+
+.presse_flex-1{
+  margin: 1.7rem;
+  width: 32%;
+  height: 60px;
+  img{
+    border: solid;
+    border-color: black;
+    width: 100%;
+    max-height: 230px;
+    transition: 0.5s;
+  }
+  img:hover{
+    opacity: 0.3;
+}
+}
+.presse_flex-2{
+  margin: 1.7rem;
+  width: 32%;
+  height: 120px;
+  img{
+    border: solid;
+    border-color: black;
+    width: 100%;
+    max-height: 230px;
+    transition: 0.5s;
+  }
+  img:hover{
+    opacity: 0.3;
+}
+}
+.presse_flex-3{
+  margin: 1.7rem;
+  width: 32%;
+  height: 47px;
+  img{
+    border: solid;
+    border-color: black;
+    width: 100%;
+    max-height: 230px;
+    transition: 0.5s;
+  }
+  img:hover{
+    opacity: 0.3;
+}
+}
+.presse_flex-4{
+  margin: 1.7rem;
+  width: 32%;
+  height: 73px;
+  img{
+    border: solid;
+    border-color: black;
+    width: 100%;
+    max-height: 100px;
+    transition: 0.5s;
+
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+}
+
+
+.presse_flex-7{
+  width: 32%;
+  margin: 0.5rem;
+  margin-left: 700px;
+  margin-right: 200px;
+iframe{
+    width: 100%;
+    max-height: 230px;
+  }
+}
+
+  .video{
+    padding-left: 10%;
+    position: center;
+    padding-bottom: 50%;
+    padding-right: 60%;
+    margin-right: 200px;
+    padding-top: 4%;
+  }
+//
+//
+
+/*rådgivningsside starter*/
+.raadgivning_flex-1{
+  width: 40%;
+  height: 300px;
+  margin-top: 50px;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+  }
+    img:hover{
+      opacity: 0.3;
+  }
+}
+.raadgivning_flex-2{
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: 18px;
+  p{
+    font-family: $primaryFont;
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+.raadgivning_flex-3{
+  width: 40%;
+  margin: 0.5;
+  margin-top: 20px;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+  }
+  img:hover{
+    opacity: 0.3;
+  }
+}
+.raadgivning_flex-4{
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: -12px;
+  p{
+    font-family: $primaryFont;
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+.raadgivning_flex-5{
+  width: 40%;
+  margin: 0.5;
+  margin-top: 20px;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+  }
+  img:hover{
+    opacity: 0.3;
+  }
+}
+.raadgivning_flex-6{
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: -12px;
+  p{
+    font-family: $primaryFont;
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+.raadgivning_flex-7{
+  width: 40%;
+  margin: 0.5;
+  margin-top: 20px;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+  }
+  img:hover{
+    opacity: 0.3;
+  }
+}
+.raadgivning_flex-8{
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: -12px;
+  p{
+    font-family: $primaryFont;
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+.raadgivning_flex-9{
+  width: 40%;
+  margin: 0.5;
+  margin-top: 20px;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+  }
+  img:hover{
+    opacity: 0.3;
+  }
+}
+.raadgivning_flex-10{
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: -12px;
+  p{
+    font-family: $primaryFont;
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+
+
+   }
+  }
+}
+.raadgivning_flex-11{
+  width: 40%;
+  margin: 0.5;
+  margin-top: 20px;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+  }
+  img:hover{
+    opacity: 0.3;
+  }
+}
+.raadgivning_flex-12{
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: -12px;
+  p{
+    font-family: $primaryFont;
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+.raadgivning_flex-13{
+  width: 40%;
+  margin: 0.5;
+  margin-top: 20px;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+  }
+  img:hover{
+    opacity: 0.3;
+  }
+}
+.raadgivning_flex-14{
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: -12px;
+  p{
+    font-family: $primaryFont;
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+.raadgivning_flex-15{
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: 20px;
+  margin-bottom: 5rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+  }
+  img:hover{
+    opacity: 0.3;
+  }
+}
+.raadgivning_flex-16{
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: -12px;
+  p{
+    font-family: $primaryFont;
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+.raadgivning_flex-17{
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: 20px;
+  margin-bottom: 5rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+
+  }
+  img:hover{
+    opacity: 0.3;
+  }
+}
+.raadgivning_flex-18{
+  width: 40%;
+  margin: 1.0rem;
+  margin-top: -12px;
+  p{
+    font-family: $primaryFont;
+    font-size: 25px;
+    width: 100%;
+    max-height: 300px;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+  .wrapper2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/*økonomisk rådgivning*/
+
+.oko-overskrift {
+  margin: 1.0rem;
+  width: 95%;
+  height: 300px;
+  h1 {
+    font-family: $primaryFont;
+    font-size: 55px;
+    text-align: center;
+  }
+}
+
+  .raad-1{
+    margin: 1.0rem;
+    width: 40%;
+    height: 300px;
+    float: left;
+    margin-left: 200px;
+    margin-top: -80px;
+    img{
+      width: 100%;
+      max-height: 300px;
+    }
+  }
+
+  .raad-2{
+    display: inline-block;
+    margin-left: 20px;
+    font-family: $primaryFont;
+    margin-top: -100PX;
+  }
+//
+.helhed_flex-1{
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  margin-bottom: 5rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+      color: $hover;
+    }
+  }
+}
+
+.helhed_flex-2{
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  margin-top: -12px;
+  p{
+    width: 100%;
+    max-height: 300px;
+    font-size: 25px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+.helhed_flex-3{
+  margin: 0.7rem;
+  margin-left: -5px;
+  width: 40%;
+  height: 300px;
+  margin-bottom: 5rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+      color: $hover;
+    }
+  }
+}
+.helhed_flex-4{
+  margin: 0.5rem;
+  width: 40%;
+  height: 300px;
+  margin-top: -12px;
+  p{
+    width: 100%;
+    max-height: 300px;
+    font-size: 25px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+.helhed_flex-5{
+  width: 30%;
+  margin: 0.7rem;
+  height: 230px;
+  img{
+    width: 100%;
+    max-height: 230px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+      color: $hover;
+    }
+  }
+}
+.helhed_flex-6{
+  width: 40%;
+  margin: 0.7rem;
+  height: 230px;
+  img{
+    width: 100%;
+    max-height: 230px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+      color: $hover;
+    }
+  }
+}
+//
+/*indsats frontpage start*/
+
+.indsats_flex-2 {
+  margin: 1.0rem;
+  width: 72%;
+  height: 200px;
+
+  h1 {
+    font-family: $primaryFont;
+    font-size: 55px;
+    text-align: center;
+  }
+}
+
+.indsats_flex-3 {
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left;
+  img{
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+.indsats_flex-4{
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left;
+  margin-top: -12px;
+  font-family: $primaryFont;
+  h1 {
+    font-family: $primaryFont;
+  }
+  p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: $primaryFont;
+  }
+}
+
+.indsats_flex-5 {
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left;
+  img{
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+.indsats_flex-6 {
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left;
+  margin-top: -12px;
+  font-family: $primaryFont;
+  h1 {
+    font-family: $primaryFont;
+
+  p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: $primaryFont;
+
+    }
+  }
+}
+
+.indsats_flex-7 {
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left;
+  img{
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+.indsats_flex-8 {
+  margin: 1.0rem;
+  width: 40%;
+  height: 300px;
+  float: left;
+  margin-top: -12px;
+  font-family: $primaryFont;
+  h1 {
+    font-family: $primaryFont;
+  }
+
+  p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: $primaryFont;
+
+  }
+}
+//
+//
+//
+//
+
+
+footer{
+  height: 130px;
+  text-align: center;
+  margin-top: 100px;
+  font-family: $primaryFont;
+
+}
+
+.footer_presse{
+  height: 130px;
+  text-align: center;
+  margin-top: 0px;
+  font-family: $primaryFont;
+}
+@media only screen and (max-width: 375px) {
+  body{
+    header{
+      img{
+      height: auto;
+      width: 100%;
+      max-width: 100%;
+      /*margin-left: 0.4%; */
+     }
+      .navigation{
+        overflow: hidden;
+        background-color: #6c809b;
+        font-family: $primaryFont;
+        a{
+          float: left;
+          font-size: 8px;
+          color: white;
+          text-align: center;
+          padding: 6px 6px;
+          text-decoration: none;
+          margin-bottom: 0px;
+          li{
+            display: inline-block;
+            margin-left: 0px;
+            font-size: 12px;
+            padding-bottom: 14px;
+            padding-top: 0px;
+
+          }
+
+      }
+      .drop{
+        float: left;
+        overflow: hidden;
+        .button{
+          cursor: pointer;font-size: 16px;
+          border: none;
+          outline: none;
+          color: white;
+          padding: 14px 16px;
+          background-color: inherit;
+        }
+      }
+    }
+  }
+  .flex-1{
+    margin: 0.5rem;
+    min-width: 100%;
+    height: 230px;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-2{
+    margin: 0.5rem;
+    min-width: 100%;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-3{
+    margin: 0.5rem;
+    min-width: 100%;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-4{
+    margin: 0.5rem;
+    min-width: 100%;
+    height: 230px;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-5{
+    min-width: 100%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-6{
+    min-width: 100%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-7{
+    min-width: 100%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-8{
+    min-width: 100%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-9{
+    min-width: 100%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+}
+
+.helhed_flex-1{
+  margin: 1.0rem;
+  min-width: 100%;
+  height: auto;
+  margin-bottom: 5rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+      color: $hover;
+    }
+  }
+}
+
+.helhed_flex-2{
+  margin: 1.0rem;
+  min-width: 100%;
+  height: 100px;
+  margin-top: -90px;
+  p{
+    width: 100%;
+    max-height: 300px;
+    font-size: 14px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+.helhed_flex-3{
+  margin: 1.0rem;
+  min-width: 100%;
+  height: 300px;
+  margin-bottom: 5rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+      color: $hover;
+    }
+  }
+}
+.helhed_flex-4{
+  margin: 1.0rem;
+  min-width: 100%;
+  height: 100px;
+  margin-top: -130px;
+  border-bottom: solid;
+  border-color: black;
+  p{
+    width: 100%;
+    max-height: 300px;
+    font-size: 14px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+.helhed_flex-5{
+  width: 30%;
+  margin: 0.7rem;
+  height: 130px;
+  img{
+    width: 100%;
+    max-height: 230px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+      color: $hover;
+    }
+  }
+}
+.helhed_flex-6{
+  width: 40%;
+  margin: 0.7rem;
+  height: 130px;
+  img{
+    width: 100%;
+    max-height: 230px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+      color: $hover;
+    }
+  }
+}
+.indsats_flex-2 {
+  margin: 1.0rem;
+  min-width: 75%;
+  height: 100px;
+
+  h1 {
+    font-family: $primaryFont;
+    font-size: 33px;
+    text-align: center;
+  }
+}
+
+.indsats_flex-3 {
+  margin: 1.0rem;
+  min-width: 100%;
+  height: 300px;
+  float: left;
+  img{
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+.indsats_flex-4{
+  margin: 1.0rem;
+  min-width: 100%;
+  height: 300px;
+  float: left;
+  margin-top: -72px;
+  font-family: $primaryFont;
+  h1 {
+    font-family: $primaryFont;
+    font-size: 18px;
+  }
+  p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: $primaryFont;
+  }
+}
+
+.indsats_flex-5 {
+  margin: 1.0rem;
+  min-width: 100%;
+  height: 300px;
+  float: left;
+  img{
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+.indsats_flex-6 {
+  margin: 1.0rem;
+  min-width: 100%;
+  height: 300px;
+  float: left;
+  margin-top: -72px;
+  font-family: $primaryFont;
+  margin-bottom: 70px;
+  h1 {
+    font-family: $primaryFont;
+    font-size: 18px;
+
+  p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: $primaryFont;
+
+    }
+  }
+}
+
+.indsats_flex-7 {
+  margin: 1.0rem;
+  min-width: 100%;
+  height: 300px;
+  margin-top: -25px;
+  float: left;
+  img{
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+.indsats_flex-8 {
+  margin: 1.0rem;
+  min-width: 100%;
+  height: 300px;
+  float: left;
+  margin-top: -72px;
+  font-family: $primaryFont;
+  h1 {
+    font-family: $primaryFont;
+    font-size: 18px;
+  }
+
+  p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: $primaryFont;
+
+  }
+}
+.aktivitet_flex-1{
+  margin: 1.0rem;
+  min-width: 100%;
+  height: 160px;
+  margin-bottom: -1rem;
+  img{
+    width: 100%;
+    max-height: 200px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+.aktivitet_flex-2{
+  margin: 1.0rem;
+  min-width: 100%;
+  height: 200px;
+  margin-top: 3rem;
+
+  p{
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+
+}
+.aktivitet_flex-4{
+  margin: 1.0rem;
+  min-width: 100%;
+  height: 300px;
+  margin-bottom: -3rem;
+  margin-top: -4rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+.aktivitet_flex-5{
+  margin: 1.0rem;
+  min-width: 100%;
+  height: 300px;
+  margin-top: -13px;
+
+  p{
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+
+}
+.aktivitet_flex-7{
+  margin: 1.0rem;
+  min-width: 100%;
+  height: 300px;
+  margin-bottom: -3rem;
+  margin-top: -10rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+.aktivitet_flex-8{
+  margin: 1.0rem;
+  min-width: 100%;
+  height: 300px;
+  margin-top: -13px;
+
+  p{
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+
+.aktivitet_flex-9{
+  margin: 1.0rem;
+  min-width: 100%;
+  height: 300px;
+  margin-bottom: 1rem;
+  margin-top: -10rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+.aktivitet_flex-10{
+  margin: 1.0rem;
+  min-width: 100%;
+  height: 100px;
+  font-size: 15px;
+  margin-top: -72px;
+  p{
+    width: 100%;
+    max-height: 250px;
+    font-size: 15px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+      }
+    }
+  }
+  .aktivitetbrand_flex-1{
+    margin: 1.0rem;
+    min-width: 75%;
+    height: 100px;
+
+    h1 {
+      font-family: $primaryFont;
+      font-size: 33px;
+      text-align: center;
+    }
+  }
+
+  .aktivitetbrand_flex-2{
+    margin: 1.0rem;
+    min-width: 100%;
+    height: 300px;
+    float: left;
+    img{
+      width: 100%;
+      max-height: 300px;
+    }
+  }
+
+  .aktivitetbrand_flex-3{
+    margin: 1.0rem;
+    min-width: 100%;
+    height: 300px;
+    float: left;
+    margin-top: -3px;
+    margin-bottom: 120px;
+
+  h1{
+    width: 100%;
+    max-height: 300px;
+    font-size: 20px;
+    font-family: $primaryFont;
+  }
+    p {
+      width: 100%;
+      max-height: 300px;
+      font-size: 15px;
+      font-family: $primaryFont;
+      }
+     }
+
+  .aktivitetbrand_flex-4 {
+    margin: 1.0rem;
+    min-width: 100%;
+    height: 250px;
+    float: left;
+    img{
+      width: 100%;
+      max-height: 250px;
+    }
+  }
+  .raadgivning_flex-1{
+    min-width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+      img:hover{
+        opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-2{
+    min-width: 100%;
+    margin: 1.0rem;
+    margin-top: -48px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-3{
+    min-width: 100%;
+    margin: 0.5;
+    margin-top: 20px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-4{
+    min-width: 100%;
+    margin: 1.0rem;
+    margin-top: -12px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-5{
+    min-width: 100%;
+    margin: 0.5;
+    margin-top: 20px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-6{
+    min-width: 100%;
+    margin: 1.0rem;
+    margin-top: -12px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-7{
+    min-width: 100%;
+    margin: 0.5;
+    margin-top: 20px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-8{
+    min-width: 100%;
+    margin: 1.0rem;
+    margin-top: -12px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-9{
+    min-width: 100%;
+    margin: 0.5;
+    margin-top: 20px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-10{
+    min-width: 100%;
+    margin: 1.0rem;
+    margin-top: -12px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+
+
+     }
+    }
+  }
+  .raadgivning_flex-11{
+    min-width: 100%;
+    margin: 0.5;
+    margin-top: 20px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-12{
+    min-width: 100%;
+    margin: 1.0rem;
+    margin-top: -12px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-13{
+    min-width: 100%;
+    margin: 0.5;
+    margin-top: 20px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-14{
+    min-width: 100%;
+    margin: 1.0rem;
+    margin-top: -12px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-15{
+    min-width: 100%;
+    margin: 0.5;
+    margin-top: 20px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-16{
+    min-width: 100%;
+    margin: 1.0rem;
+    margin-top: -12px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-17{
+    min-width: 100%;
+    margin: 0.5;
+    margin-top: 20px;
+    img{
+      width: 100%;
+      max-height: 300px;
+
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-18{
+    min-width: 100%;
+    margin: 1.0rem;
+    margin-top: -12px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+    .wrapper2{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+
+  /*økonomisk rådgivning*/
+
+  .oko-overskrift {
+    margin: 1.0rem;
+    min-width: 75%;
+    height: 300px;
+    h1 {
+      font-family: $primaryFont;
+      font-size: 33px;
+      text-align: center;
+    }
+  }
+
+    .raad-1{
+      margin: 1.0rem;
+      min-width: 100%;
+      height: 300px;
+      float: left;
+      margin-left: 0px;
+      margin-top: -120px;
+      img{
+        width: 100%;
+        max-height: 300px;
+      }
+    }
+
+    .raad-2{
+      display: inline-block;
+      margin-left: 20px;
+      font-family: $primaryFont;
+      margin-top: -90PX;
+    }
+    .presse_wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      max-height: 2000px;
+      max-width: 100%;
+      width: 100%;
+      margin: 0px;
+      justify-content: center;
+      margin-top: 1rem;
+
+
+
+    .presse_flex-1{
+      margin: 0rem;
+      min-width: 100%;
+      height: 60px;
+      img{
+        border: solid;
+        border-color: black;
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+    }
+    .presse_flex-2{
+      margin: 0rem;
+      min-width: 100%;
+      height: 120px;
+      img{
+        border: solid;
+        border-color: black;
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+    }
+    .presse_flex-3{
+      margin: 0rem;
+      width: 100%;
+      height: 47px;
+      img{
+        border: solid;
+        border-color: black;
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+    }
+    .presse_flex-4{
+      margin: 0rem;
+      min-width: 100%;
+      height: 73px;
+      img{
+        border: solid;
+        border-color: black;
+        width: 100%;
+        max-height: 100px;
+        transition: 0.5s;
+
+        }
+        img:hover{
+          opacity: 0.3;
+      }
+      }
+    }
+
+
+    .presse_flex-7{
+      width: 32%;
+      margin: 0.5rem;
+      margin-left: 700px;
+      margin-right: 200px;
+    iframe{
+        width: 100%;
+        max-height: 230px;
+      }
+    }
+
+      .video{
+        padding-left: 0%;
+        position: center;
+        padding-bottom: 50%;
+        padding-right: 60%;
+        margin-right: 200px;
+        padding-top: 4%;
+      }
+      .kontakt_wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        max-height: 5100px;
+        max-width: 100%;
+        width: 100%;
+        margin: 0px;
+        justify-content: center;
+        margin-top: 0.5rem;
+        background-image: url(img/cork-board.jpg);
+
+
+      .kontakt_flex-1{
+        margin: 0.5rem;
+        min-width: 100%;
+        height: 330px;
+        img{
+          width: 100%;
+          height: auto;
+
+      }
+      }
+      .kontakt_flex-2{
+        margin: 0.5rem;
+        min-width: 100%;
+        img{
+          width: 100%;
+          max-height: auto;
+
+      }
+      }
+      .kontakt_flex-3{
+        margin: 0.5rem;
+        min-width: 100%;
+        margin-top: -90px;
+        img{
+          width: 100%;
+          max-height: auto;
+
+      }
+      }
+      .kontakt_flex-4{
+        margin: 0.5rem;
+        min-width: 100%;
+        height: 230px;
+        margin-top: -90px;
+        img{
+          width: 100%;
+          max-height: auto;
+
+      }
+      }
+      .kontakt_flex-5{
+        min-width: 100%;
+        margin: 0.5rem;
+        height: 420px;
+        margin-top: 120px;
+        img{
+          width: 100%;
+          height: auto;
+      }
+      }
+      .kontakt_flex-6{
+        min-width: 100%;
+        margin: 0.5rem;
+        margin-top: -70px;
+        img{
+          width: 100%;
+          height: auto;
+        }
+        }
+      }
+
+      footer{
+        height: 0px;
+        text-align: center;
+        margin-top: 10px;
+        font-family: $primaryFont;
+
+      }
+
+      .footer_presse{
+        height: 30px;
+        text-align: center;
+        margin-top: -170px;
+        font-family: $primaryFont;
+      }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body{
+    header{
+      img{
+      height: auto;
+      width: 100%;
+      /*margin-left: 0.4%; */
+     }
+      .navigation{
+        overflow: hidden;
+        background-color: #6c809b;
+        font-family: $primaryFont;
+        a{
+          float: left;
+          font-size: 8px;
+          color: white;
+          text-align: center;
+          margin-left: 5%;
+          text-decoration: none;
+          margin-bottom: 0px;
+          justify-content: center;
+          li{
+            display: inline-block;
+            margin-left: 0px;
+            font-size: 24px;
+            padding-bottom: 14px;
+            padding-top: 0px;
+
+          }
+
+      }
+      .drop{
+        float: left;
+        overflow: hidden;
+        .button{
+          cursor: pointer;font-size: 16px;
+          border: none;
+          outline: none;
+          color: white;
+          padding: 14px 16px;
+          background-color: inherit;
+        }
+      }
+    }
+  }
+  .flex-1{
+    margin: 0.5rem;
+    min-width: 45%;
+    height: 230px;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-2{
+    margin: 0.5rem;
+    min-width: 45%;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-3{
+    margin: 0.5rem;
+    min-width: 45%;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-4{
+    margin: 0.5rem;
+    min-width: 45%;
+    height: 230px;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-5{
+    min-width: 45%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-6{
+    min-width: 45%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-7{
+    min-width: 45%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-8{
+    min-width: 45%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-9{
+    min-width: 45%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+}
+
+.helhed_flex-1{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: auto;
+  margin-bottom: 5rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+      color: $hover;
+    }
+  }
+}
+
+.helhed_flex-2{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 100px;
+  margin-top: -10px;
+  p{
+    width: 100%;
+    max-height: 300px;
+    font-size: 22px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+.helhed_flex-3{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  margin-bottom: 5rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+      color: $hover;
+    }
+  }
+}
+.helhed_flex-4{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 100px;
+  margin-top: -10px;
+  p{
+    width: 100%;
+    max-height: 300px;
+    font-size: 22px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+.helhed_flex-5{
+  width: 30%;
+  margin: 0.7rem;
+  height: 160px;
+  margin-top: -40px;
+  img{
+    width: 100%;
+    max-height: 230px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+      color: $hover;
+    }
+  }
+}
+.helhed_flex-6{
+  width: 40%;
+  margin: 0.7rem;
+  height: 130px;
+  margin-top: -40px;
+  img{
+    width: 100%;
+    max-height: 230px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+      color: $hover;
+    }
+  }
+}
+.indsats_flex-2 {
+  margin: 1.0rem;
+  min-width: 75%;
+  height: 100px;
+
+  h1 {
+    font-family: $primaryFont;
+    font-size: 42px;
+    text-align: center;
+  }
+}
+
+.indsats_flex-3 {
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  float: left;
+  img{
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+.indsats_flex-4{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  float: left;
+  margin-top: 0px;
+  font-family: $primaryFont;
+  h1 {
+    font-family: $primaryFont;
+    font-size: 18px;
+  }
+  p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: $primaryFont;
+  }
+}
+
+.indsats_flex-5 {
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  float: left;
+  img{
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+.indsats_flex-6 {
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  float: left;
+  margin-top: 0px;
+  font-family: $primaryFont;
+  margin-bottom: 70px;
+  h1 {
+    font-family: $primaryFont;
+    font-size: 18px;
+
+  p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: $primaryFont;
+
+    }
+  }
+}
+
+.indsats_flex-7 {
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  margin-top: 10px;
+  float: left;
+  margin-bottom: 50px;
+  img{
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+.indsats_flex-8 {
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  float: left;
+  margin-top: 0px;
+  font-family: $primaryFont;
+  h1 {
+    font-family: $primaryFont;
+    font-size: 18px;
+  }
+
+  p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: $primaryFont;
+
+  }
+}
+.aktivitet_flex-1{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 200px;
+  margin-bottom: 1rem;
+  img{
+    width: 100%;
+    max-height: 200px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+.aktivitet_flex-2{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 200px;
+  margin-top: -0.5rem;
+
+  p{
+    width: 100%;
+    max-height: 300px;
+    font-size: 22px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+
+}
+.aktivitet_flex-4{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+.aktivitet_flex-5{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  margin-top: -5px;
+
+  p{
+    width: 100%;
+    max-height: 300px;
+    font-size: 22px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+
+}
+.aktivitet_flex-7{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  margin-bottom: 0rem;
+  margin-top: -5rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+.aktivitet_flex-8{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  margin-top: -105px;
+
+  p{
+    width: 100%;
+    max-height: 300px;
+    font-size: 22px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+
+.aktivitet_flex-9{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  margin-bottom: 1rem;
+  margin-top: -2rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+.aktivitet_flex-10{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 100px;
+  font-size: 22px;
+  margin-top: -52px;
+  p{
+    width: 100%;
+    max-height: 250px;
+    font-size: 22px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+      }
+    }
+  }
+  .aktivitetbrand_flex-1{
+    margin: 1.0rem;
+    min-width: 50%;
+    height: 100px;
+
+    h1 {
+      font-family: $primaryFont;
+      font-size: 33px;
+      text-align: center;
+    }
+  }
+
+  .aktivitetbrand_flex-2{
+    margin: 1.0rem;
+    min-width: 60%;
+    height: 300px;
+    float: left;
+    img{
+      width: 100%;
+      max-height: 300px;
+    }
+  }
+
+  .aktivitetbrand_flex-3{
+    margin: 1.0rem;
+    min-width: 60%;
+    height: 300px;
+    float: left;
+    margin-top: -3px;
+    margin-bottom: 120px;
+
+  h1{
+    width: 100%;
+    max-height: 300px;
+    font-size: 20px;
+    font-family: $primaryFont;
+  }
+    p {
+      width: 100%;
+      max-height: 300px;
+      font-size: 15px;
+      font-family: $primaryFont;
+      }
+     }
+
+  .aktivitetbrand_flex-4 {
+    margin: 1.0rem;
+    min-width: 60%;
+    height: 250px;
+    float: left;
+    margin-top: -20px;
+    img{
+      width: 100%;
+      max-height: 250px;
+    }
+  }
+  .raadgivning_flex-1{
+    min-width: 45%;
+    height: 300px;
+    margin-top: 30px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+      img:hover{
+        opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-2{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: 18px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-3{
+    min-width: 45%;
+    margin: 0.5;
+    margin-top: -18px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-4{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: -30px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-5{
+    min-width: 45%;
+    margin: 0.5;
+    margin-top: 45px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-6{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: 29px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-7{
+    min-width: 45%;
+    margin: 0.5;
+    margin-top: 45px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-8{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: 29px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-9{
+    min-width: 45%;
+    margin: 0.5;
+    margin-top: 45px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-10{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: 29px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+
+
+     }
+    }
+  }
+  .raadgivning_flex-11{
+    min-width: 45%;
+    margin: 0.5;
+    margin-top: 45px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-12{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: 29px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-13{
+    min-width: 45%;
+    margin: 0.5;
+    margin-top: 45px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-14{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: 29px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-15{
+    min-width: 45%;
+    margin: 0.5;
+    margin-top: 45px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-16{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: 29px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-17{
+    min-width: 45%;
+    margin: 0.5;
+    margin-top: 45px;
+    img{
+      width: 100%;
+      max-height: 300px;
+
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-18{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: 29px;
+    margin-bottom: 20px;
+    p{
+      font-family: $primaryFont;
+      font-size: 15px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+    .wrapper2{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+
+  /*økonomisk rådgivning*/
+
+  .oko-overskrift {
+    margin: 1.0rem;
+    min-width: 75%;
+    height: 300px;
+    h1 {
+      font-family: $primaryFont;
+      font-size: 33px;
+      text-align: center;
+    }
+  }
+
+    .raad-1{
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left;
+      margin-left: 0px;
+      margin-top: -120px;
+      img{
+        width: 100%;
+        max-height: 300px;
+      }
+    }
+
+    .raad-2{
+      display: inline-block;
+      width: 45%;
+      margin-left: 20px;
+      font-family: $primaryFont;
+      margin-top: -140PX;
+    }
+    .presse_wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      max-height: auto;
+      max-width: 100%;
+      width: 100%;
+      margin: 0px;
+      justify-content: center;
+      margin-top: 1rem;
+
+
+
+    .presse_flex-1{
+      margin: 0rem;
+      min-width: 100%;
+      height: 120px;
+      img{
+        border: solid;
+        border-color: black;
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+    }
+    .presse_flex-2{
+      margin: 0rem;
+      min-width: 100%;
+      height: 250px;
+      img{
+        border: solid;
+        border-color: black;
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+    }
+    .presse_flex-3{
+      margin: 0rem;
+      width: 100%;
+      height: 120px;
+      img{
+        border: solid;
+        border-color: black;
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+    }
+    .presse_flex-4{
+      margin: 0rem;
+      min-width: 100%;
+      height: 100px;
+      img{
+        border: solid;
+        border-color: black;
+        width: 100%;
+        max-height: 100px;
+        transition: 0.5s;
+
+        }
+        img:hover{
+          opacity: 0.3;
+      }
+      }
+    }
+
+
+    .presse_flex-7{
+      width: 32%;
+      margin: 0.5rem;
+      margin-left: 700px;
+      margin-right: 200px;
+    iframe{
+        width: 100%;
+        max-height: 230px;
+      }
+    }
+
+      .video{
+        padding-left: 0%;
+        position: center;
+        padding-bottom: 50%;
+        padding-right: 60%;
+        margin-right: 200px;
+        padding-top: 4%;
+      }
+      .kontakt_wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        max-height: auto;
+        max-width: 100%;
+        width: 100%;
+        margin: 0px;
+        justify-content: center;
+        margin-top: 0.5rem;
+        background-image: url(img/cork-board.jpg);
+
+
+      .kontakt_flex-1{
+        margin: 0.5rem;
+        min-width: 45%;
+        height: 330px;
+        img{
+          width: 100%;
+          height: auto;
+
+      }
+      }
+      .kontakt_flex-2{
+        margin: 0.5rem;
+        min-width: 45%;
+        img{
+          width: 100%;
+          max-height: auto;
+
+      }
+      }
+      .kontakt_flex-3{
+        margin: 0.5rem;
+        min-width: 45%;
+        margin-top: -90px;
+        img{
+          width: 100%;
+          max-height: auto;
+
+      }
+      }
+      .kontakt_flex-4{
+        margin: 0.5rem;
+        min-width: 45%;
+        height: 230px;
+        margin-top: -90px;
+        img{
+          width: 100%;
+          max-height: auto;
+
+      }
+      }
+      .kontakt_flex-5{
+        min-width: 45%;
+        margin: 0.5rem;
+        height: 420px;
+        margin-top: -60px;
+        img{
+          width: 100%;
+          height: auto;
+      }
+      }
+      .kontakt_flex-6{
+        min-width: 45%;
+        margin: 0.5rem;
+        margin-top: -70px;
+        img{
+          width: 100%;
+          height: auto;
+        }
+        }
+      }
+
+      footer{
+        height: 0px;
+        text-align: center;
+        margin-top: 10px;
+        font-family: $primaryFont;
+
+      }
+
+      .footer_presse{
+        height: 30px;
+        text-align: center;
+        margin-top: 0px;
+        font-family: $primaryFont;
+      }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  body{
+    header{
+      img{
+      height: auto;
+      width: 100%;
+      /*margin-left: 0.4%; */
+     }
+      .navigation{
+        overflow: hidden;
+        background-color: #6c809b;
+        font-family: $primaryFont;
+        a{
+          float: left;
+          font-size: 8px;
+          color: white;
+          text-align: center;
+          margin-left: 9%;
+          text-decoration: none;
+          margin-bottom: 0px;
+          justify-content: center;
+          li{
+            display: inline-block;
+            margin-left: 0px;
+            font-size: 24px;
+            padding-bottom: 14px;
+            padding-top: 0px;
+
+          }
+
+      }
+      .drop{
+        float: left;
+        overflow: hidden;
+        .button{
+          cursor: pointer;font-size: 16px;
+          border: none;
+          outline: none;
+          color: white;
+          padding: 14px 16px;
+          background-color: inherit;
+        }
+      }
+    }
+  }
+  .flex-1{
+    margin: 0.5rem;
+    min-width: 40%;
+    height: 230px;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-2{
+    margin: 0.5rem;
+    min-width: 40%;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-3{
+    margin: 0.5rem;
+    min-width: 40%;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-4{
+    margin: 0.5rem;
+    min-width: 40%;
+    height: 230px;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-5{
+    min-width: 40%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-6{
+    min-width: 40%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-7{
+    min-width: 40%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-8{
+    min-width: 40%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+  }
+  .flex-9{
+    min-width: 40%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+  }
+}
+
+.helhed_flex-1{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: auto;
+  margin-bottom: 5rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+      color: $hover;
+    }
+  }
+}
+
+.helhed_flex-2{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 100px;
+  margin-top: -10px;
+  p{
+    width: 100%;
+    max-height: 300px;
+    font-size: 22px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+.helhed_flex-3{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  margin-bottom: 5rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+      color: $hover;
+    }
+  }
+}
+.helhed_flex-4{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 100px;
+  margin-top: -10px;
+  p{
+    width: 100%;
+    max-height: 300px;
+    font-size: 22px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+.helhed_flex-5{
+  width: 30%;
+  margin: 0.7rem;
+  height: 160px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+  img{
+    width: 100%;
+    max-height: 230px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+      color: $hover;
+    }
+  }
+}
+.helhed_flex-6{
+  width: 40%;
+  margin: 0.7rem;
+  height: 130px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  img{
+    width: 100%;
+    max-height: 230px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+      color: $hover;
+    }
+  }
+}
+.indsats_flex-2 {
+  margin: 1.0rem;
+  min-width: 75%;
+  height: 100px;
+
+  h1 {
+    font-family: $primaryFont;
+    font-size: 42px;
+    text-align: center;
+  }
+}
+
+.indsats_flex-3 {
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  float: left;
+  img{
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+.indsats_flex-4{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  float: left;
+  margin-top: 0px;
+  font-family: $primaryFont;
+  h1 {
+    font-family: $primaryFont;
+    font-size: 18px;
+  }
+  p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: $primaryFont;
+  }
+}
+
+.indsats_flex-5 {
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  float: left;
+  img{
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+.indsats_flex-6 {
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  float: left;
+  margin-top: 0px;
+  font-family: $primaryFont;
+  margin-bottom: 70px;
+  h1 {
+    font-family: $primaryFont;
+    font-size: 18px;
+
+  p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: $primaryFont;
+
+    }
+  }
+}
+
+.indsats_flex-7 {
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  margin-top: 10px;
+  float: left;
+  margin-bottom: 50px;
+  img{
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+.indsats_flex-8 {
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  float: left;
+  margin-top: 0px;
+  font-family: $primaryFont;
+  h1 {
+    font-family: $primaryFont;
+    font-size: 18px;
+  }
+
+  p {
+    width: 100%;
+    max-height: 300px;
+    font-size: 15px;
+    font-family: $primaryFont;
+
+  }
+}
+.aktivitet_flex-1{
+  margin: 1.0rem;
+  min-width: 40%;
+  height: 200px;
+  margin-bottom: 7rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+.aktivitet_flex-2{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 200px;
+  margin-top: -0.5rem;
+
+  p{
+    width: 100%;
+    max-height: 300px;
+    font-size: 22px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+
+}
+.aktivitet_flex-4{
+  margin: 1.0rem;
+  min-width: 40%;
+  height: 300px;
+  margin-bottom: 7rem;
+  margin-top: 1rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+.aktivitet_flex-5{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  margin-top: -5px;
+
+  p{
+    width: 100%;
+    max-height: 300px;
+    font-size: 22px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+
+}
+.aktivitet_flex-7{
+  margin: 1.0rem;
+  min-width: 40%;
+  height: 300px;
+  margin-bottom: 4rem;
+  margin-top: -5rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+.aktivitet_flex-8{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 300px;
+  margin-top: -105px;
+
+  p{
+    width: 100%;
+    max-height: 300px;
+    font-size: 22px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+   }
+  }
+}
+
+.aktivitet_flex-9{
+  margin: 1.0rem;
+  min-width: 40%;
+  height: 300px;
+  margin-bottom: 1rem;
+  margin-top: -2rem;
+  img{
+    width: 100%;
+    max-height: 300px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+.aktivitet_flex-10{
+  margin: 1.0rem;
+  min-width: 45%;
+  height: 100px;
+  font-size: 22px;
+  margin-top: -52px;
+  p{
+    width: 100%;
+    max-height: 250px;
+    font-size: 22px;
+    font-family: $primaryFont;
+
+    a:link {
+      color: $link;
+      text-decoration: none;
+      }
+    }
+  }
+  .aktivitetbrand_flex-1{
+    margin: 1.0rem;
+    min-width: 50%;
+    height: 100px;
+
+    h1 {
+      font-family: $primaryFont;
+      font-size: 33px;
+      text-align: center;
+    }
+  }
+
+  .aktivitetbrand_flex-2{
+    margin: 1.0rem;
+    min-width: 50%;
+    height: 300px;
+    float: left;
+    img{
+      width: 100%;
+      max-height: 300px;
+    }
+  }
+
+  .aktivitetbrand_flex-3{
+    margin: 1.0rem;
+    min-width: 50%;
+    height: 300px;
+    float: left;
+    margin-top: -3px;
+    margin-bottom: 120px;
+
+  h1{
+    width: 100%;
+    max-height: 300px;
+    font-size: 20px;
+    font-family: $primaryFont;
+  }
+    p {
+      width: 100%;
+      max-height: 300px;
+      font-size: 15px;
+      font-family: $primaryFont;
+      }
+     }
+
+  .aktivitetbrand_flex-4 {
+    margin: 1.0rem;
+    min-width: 50%;
+    height: 250px;
+    float: left;
+    margin-top: -20px;
+    img{
+      width: 100%;
+      max-height: 250px;
+    }
+  }
+  .raadgivning_flex-1{
+    min-width: 45%;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 4rem;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+      img:hover{
+        opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-2{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: 1px;
+    p{
+      font-family: $primaryFont;
+      font-size: 23px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-3{
+    min-width: 45%;
+    margin: 0.5;
+    margin-top: -18px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-4{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: -45px;
+    p{
+      font-family: $primaryFont;
+      font-size: 23px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-5{
+    min-width: 45%;
+    margin: 0.5;
+    margin-top: 45px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-6{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: 13px;
+    p{
+      font-family: $primaryFont;
+      font-size: 23px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-7{
+    min-width: 45%;
+    margin: 0.5;
+    margin-top: 45px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-8{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: 13px;
+    p{
+      font-family: $primaryFont;
+      font-size: 23px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-9{
+    min-width: 45%;
+    margin: 0.5;
+    margin-top: 45px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-10{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: 13px;
+    p{
+      font-family: $primaryFont;
+      font-size: 23px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+
+
+     }
+    }
+  }
+  .raadgivning_flex-11{
+    min-width: 45%;
+    margin: 0.5;
+    margin-top: 45px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-12{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: 14px;
+    p{
+      font-family: $primaryFont;
+      font-size: 23px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-13{
+    min-width: 45%;
+    margin: 0.5;
+    margin-top: 45px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-14{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: 14px;
+    p{
+      font-family: $primaryFont;
+      font-size: 23px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-15{
+    min-width: 45%;
+    margin: 0.5;
+    margin-top: 45px;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-16{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: 14px;
+    p{
+      font-family: $primaryFont;
+      font-size: 23px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .raadgivning_flex-17{
+    min-width: 45%;
+    margin: 0.5;
+    margin-top: 45px;
+    img{
+      width: 100%;
+      max-height: 300px;
+
+    }
+    img:hover{
+      opacity: 0.3;
+    }
+  }
+  .raadgivning_flex-18{
+    min-width: 45%;
+    margin: 1.0rem;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    p{
+      font-family: $primaryFont;
+      font-size: 23px;
+      width: 100%;
+      max-height: 300px;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+    .wrapper2{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+
+  /*økonomisk rådgivning*/
+
+  .oko-overskrift {
+    margin: 1.0rem;
+    min-width: 75%;
+    height: 300px;
+    h1 {
+      font-family: $primaryFont;
+      font-size: 33px;
+      text-align: center;
+    }
+  }
+
+    .raad-1{
+      margin: 1.0rem;
+      min-width: 45%;
+      height: 300px;
+      float: left;
+      margin-left: 0px;
+      margin-top: -120px;
+      img{
+        width: 100%;
+        max-height: 300px;
+      }
+    }
+
+    .raad-2{
+      display: inline-block;
+      width: 45%;
+      margin-left: 20px;
+      font-family: $primaryFont;
+      margin-top: -140PX;
+    }
+    .presse_wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      max-height: auto;
+      max-width: 100%;
+      width: 100%;
+      margin: 0px;
+      justify-content: center;
+      margin-top: 1rem;
+
+
+
+    .presse_flex-1{
+      margin: 0rem;
+      min-width: 100%;
+      height: 220px;
+      img{
+        border: solid;
+        border-color: black;
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+    }
+    .presse_flex-2{
+      margin: 0rem;
+      min-width: 100%;
+      height: 350px;
+      img{
+        border: solid;
+        border-color: black;
+        width: 100%;
+        max-height: 330px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+    }
+    .presse_flex-3{
+      margin: 0rem;
+      width: 100%;
+      height: 150px;
+      img{
+        border: solid;
+        border-color: black;
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+    }
+    .presse_flex-4{
+      margin: 0rem;
+      min-width: 100%;
+      height: auto;
+      height: 200px;
+      img{
+        border: solid;
+        border-color: black;
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+        transition: 0.5s;
+
+        }
+        img:hover{
+          opacity: 0.3;
+      }
+      }
+    }
+
+
+    .presse_flex-7{
+      width: 32%;
+      margin: 0.5rem;
+      margin-left: 700px;
+      margin-right: 200px;
+    iframe{
+        width: 100%;
+        max-height: 230px;
+      }
+    }
+
+      .video{
+        padding-left: 0%;
+        position: center;
+        padding-bottom: 50%;
+        padding-right: 60%;
+        margin-right: 200px;
+        padding-top: 4%;
+      }
+      .kontakt_wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        max-height: auto;
+        max-width: 100%;
+        width: 100%;
+        margin: 0px;
+        justify-content: center;
+        margin-top: 0.5rem;
+        background-image: url(img/cork-board.jpg);
+
+
+      .kontakt_flex-1{
+        margin: 0.5rem;
+        min-width: 45%;
+        height: 330px;
+        img{
+          width: 100%;
+          height: auto;
+
+      }
+      }
+      .kontakt_flex-2{
+        margin: 0.5rem;
+        min-width: 45%;
+        img{
+          width: 100%;
+          max-height: auto;
+
+      }
+      }
+      .kontakt_flex-3{
+        margin: 0.5rem;
+        min-width: 45%;
+        margin-top: -90px;
+        img{
+          width: 100%;
+          max-height: auto;
+
+      }
+      }
+      .kontakt_flex-4{
+        margin: 0.5rem;
+        min-width: 45%;
+        height: 230px;
+        margin-top: -90px;
+        img{
+          width: 100%;
+          max-height: auto;
+
+      }
+      }
+      .kontakt_flex-5{
+        min-width: 45%;
+        margin: 0.5rem;
+        height: 420px;
+        margin-top: -60px;
+        img{
+          width: 100%;
+          height: auto;
+      }
+      }
+      .kontakt_flex-6{
+        min-width: 45%;
+        margin: 0.5rem;
+        margin-top: -70px;
+        img{
+          width: 100%;
+          height: auto;
+        }
+        }
+      }
+
+      footer{
+        height: 0px;
+        text-align: center;
+        margin-top: 10px;
+        font-family: $primaryFont;
+
+      }
+
+      .footer_presse{
+        height: 30px;
+        text-align: center;
+        margin-top: 0px;
+        font-family: $primaryFont;
+      }
+  }
+  @media only screen and (max-width: 1600px) {
+    body{
+      header{
+        img{
+        height: auto;
+        width: 100%;
+        margin-left: 9%;
+        /*margin-left: 0.4%; */
+       }
+        .navigation{
+          overflow: hidden;
+          background-color: #6c809b;
+          font-family: $primaryFont;
+          nav{
+            a{
+              float: left;
+            font-size: 8px;
+            color: white;
+            text-align: center;
+            margin-left: 11%;
+            text-decoration: none;
+            margin-bottom: 0px;
+            justify-content: center;
+            li{
+              width: 75%;
+              display: inline-block;
+              margin-left: 0px;
+              font-size: 24px;
+              padding-bottom: 14px;
+              padding-top: 0px;
+
+            }
+          }
+        }
+        .drop{
+          width: 75%;
+          float: left;
+          overflow: hidden;
+          .button{
+            cursor: pointer;font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+          }
+        }
+      }
+    }
+    .flex-1{
+      margin: 0.5rem;
+      min-width: 40%;
+      height: 230px;
+      img{
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+    }
+    .flex-2{
+      margin: 0.5rem;
+      min-width: 40%;
+      img{
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+    }
+    .flex-3{
+      margin: 0.5rem;
+      min-width: 40%;
+      img{
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+    }
+    .flex-4{
+      margin: 0.5rem;
+      min-width: 40%;
+      height: 230px;
+      img{
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+    }
+    .flex-5{
+      min-width: 40%;
+      margin: 0.5rem;
+      img{
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+    }
+    .flex-6{
+      min-width: 40%;
+      margin: 0.5rem;
+      img{
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+    }
+    .flex-7{
+      min-width: 40%;
+      margin: 0.5rem;
+      img{
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+    }
+    .flex-8{
+      min-width: 40%;
+      margin: 0.5rem;
+      img{
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+    }
+    .flex-9{
+      min-width: 40%;
+      margin: 0.5rem;
+      img{
+        width: 100%;
+        max-height: 230px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+    }
+  }
+
+  .helhed_flex-1{
+    margin: 1.0rem;
+    min-width: 45%;
+    height: auto;
+    margin-bottom: 5rem;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+        color: $hover;
+      }
+    }
+  }
+
+  .helhed_flex-2{
+    margin: 1.0rem;
+    min-width: 45%;
+    height: 100px;
+    margin-top: -10px;
+    p{
+      width: 100%;
+      max-height: 300px;
+      font-size: 22px;
+      font-family: $primaryFont;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .helhed_flex-3{
+    margin: 1.0rem;
+    min-width: 45%;
+    height: 300px;
+    margin-bottom: 5rem;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+        color: $hover;
+      }
+    }
+  }
+  .helhed_flex-4{
+    margin: 1.0rem;
+    min-width: 45%;
+    height: 100px;
+    margin-top: -10px;
+    p{
+      width: 100%;
+      max-height: 300px;
+      font-size: 22px;
+      font-family: $primaryFont;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+  .helhed_flex-5{
+    width: 30%;
+    margin: 0.7rem;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+        color: $hover;
+      }
+    }
+  }
+  .helhed_flex-6{
+    width: 40%;
+    margin: 0.7rem;
+    height: 130px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    img{
+      width: 100%;
+      max-height: 230px;
+      transition: 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+        color: $hover;
+      }
+    }
+  }
+  .indsats_flex-2 {
+    margin: 1.0rem;
+    min-width: 75%;
+    height: 100px;
+
+    h1 {
+      font-family: $primaryFont;
+      font-size: 42px;
+      text-align: center;
+    }
+  }
+
+  .indsats_flex-3 {
+    margin: 1.0rem;
+    min-width: 45%;
+    height: 300px;
+    float: left;
+    img{
+      width: 100%;
+      max-height: 300px;
+    }
+  }
+
+  .indsats_flex-4{
+    margin: 1.0rem;
+    min-width: 45%;
+    height: 300px;
+    float: left;
+    margin-top: 0px;
+    font-family: $primaryFont;
+    h1 {
+      font-family: $primaryFont;
+      font-size: 18px;
+    }
+    p {
+      width: 100%;
+      max-height: 300px;
+      font-size: 15px;
+      font-family: $primaryFont;
+    }
+  }
+
+  .indsats_flex-5 {
+    margin: 1.0rem;
+    min-width: 45%;
+    height: 300px;
+    float: left;
+    img{
+      width: 100%;
+      max-height: 300px;
+    }
+  }
+
+  .indsats_flex-6 {
+    margin: 1.0rem;
+    min-width: 45%;
+    height: 300px;
+    float: left;
+    margin-top: 0px;
+    font-family: $primaryFont;
+    margin-bottom: 70px;
+    h1 {
+      font-family: $primaryFont;
+      font-size: 18px;
+
+    p {
+      width: 100%;
+      max-height: 300px;
+      font-size: 15px;
+      font-family: $primaryFont;
+
+      }
+    }
+  }
+
+  .indsats_flex-7 {
+    margin: 1.0rem;
+    min-width: 45%;
+    height: 300px;
+    margin-top: 10px;
+    float: left;
+    margin-bottom: 50px;
+    img{
+      width: 100%;
+      max-height: 300px;
+    }
+  }
+
+  .indsats_flex-8 {
+    margin: 1.0rem;
+    min-width: 45%;
+    height: 300px;
+    float: left;
+    margin-top: 0px;
+    font-family: $primaryFont;
+    h1 {
+      font-family: $primaryFont;
+      font-size: 18px;
+    }
+
+    p {
+      width: 100%;
+      max-height: 300px;
+      font-size: 15px;
+      font-family: $primaryFont;
+
+    }
+  }
+  .aktivitet_flex-1{
+    margin: 1.0rem;
+    min-width: 40%;
+    height: 200px;
+    margin-bottom: 7rem;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+  .aktivitet_flex-2{
+    margin: 1.0rem;
+    min-width: 45%;
+    height: 200px;
+    margin-top: -0.5rem;
+
+    p{
+      width: 100%;
+      max-height: 300px;
+      font-size: 22px;
+      font-family: $primaryFont;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+
+  }
+  .aktivitet_flex-4{
+    margin: 1.0rem;
+    min-width: 40%;
+    height: 300px;
+    margin-bottom: 7rem;
+    margin-top: 1rem;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+  .aktivitet_flex-5{
+    margin: 1.0rem;
+    min-width: 45%;
+    height: 300px;
+    margin-top: -5px;
+
+    p{
+      width: 100%;
+      max-height: 300px;
+      font-size: 22px;
+      font-family: $primaryFont;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+
+  }
+  .aktivitet_flex-7{
+    margin: 1.0rem;
+    min-width: 40%;
+    height: 300px;
+    margin-bottom: 4rem;
+    margin-top: -5rem;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+  .aktivitet_flex-8{
+    margin: 1.0rem;
+    min-width: 45%;
+    height: 300px;
+    margin-top: -105px;
+
+    p{
+      width: 100%;
+      max-height: 300px;
+      font-size: 22px;
+      font-family: $primaryFont;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+     }
+    }
+  }
+
+  .aktivitet_flex-9{
+    margin: 1.0rem;
+    min-width: 40%;
+    height: 300px;
+    margin-bottom: 1rem;
+    margin-top: -2rem;
+    img{
+      width: 100%;
+      max-height: 300px;
+      transition: 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+  .aktivitet_flex-10{
+    margin: 1.0rem;
+    min-width: 45%;
+    height: 100px;
+    font-size: 22px;
+    margin-top: -52px;
+    p{
+      width: 100%;
+      max-height: 250px;
+      font-size: 22px;
+      font-family: $primaryFont;
+
+      a:link {
+        color: $link;
+        text-decoration: none;
+        }
+      }
+    }
+    .aktivitetbrand_flex-1{
+      margin: 1.0rem;
+      min-width: 50%;
+      height: 100px;
+
+      h1 {
+        font-family: $primaryFont;
+        font-size: 33px;
+        text-align: center;
+      }
+    }
+
+    .aktivitetbrand_flex-2{
+      margin: 1.0rem;
+      min-width: 50%;
+      height: 300px;
+      float: left;
+      img{
+        width: 100%;
+        max-height: 300px;
+      }
+    }
+
+    .aktivitetbrand_flex-3{
+      margin: 1.0rem;
+      min-width: 50%;
+      height: 300px;
+      float: left;
+      margin-top: -3px;
+      margin-bottom: 120px;
+
+    h1{
+      width: 100%;
+      max-height: 300px;
+      font-size: 20px;
+      font-family: $primaryFont;
+    }
+      p {
+        width: 100%;
+        max-height: 300px;
+        font-size: 15px;
+        font-family: $primaryFont;
+        }
+       }
+
+    .aktivitetbrand_flex-4 {
+      margin: 1.0rem;
+      min-width: 50%;
+      height: 250px;
+      float: left;
+      margin-top: -20px;
+      img{
+        width: 100%;
+        max-height: 250px;
+      }
+    }
+    .raadgivning_flex-1{
+      min-width: 45%;
+      height: 300px;
+      margin-top: 30px;
+      margin-bottom: 4rem;
+      img{
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s;
+      }
+        img:hover{
+          opacity: 0.3;
+      }
+    }
+    .raadgivning_flex-2{
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 1px;
+      p{
+        font-family: $primaryFont;
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px;
+
+        a:link {
+          color: $link;
+          text-decoration: none;
+       }
+      }
+    }
+    .raadgivning_flex-3{
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: -18px;
+      img{
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+      }
+    }
+    .raadgivning_flex-4{
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: -45px;
+      p{
+        font-family: $primaryFont;
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px;
+
+        a:link {
+          color: $link;
+          text-decoration: none;
+       }
+      }
+    }
+    .raadgivning_flex-5{
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px;
+      img{
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+      }
+    }
+    .raadgivning_flex-6{
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 13px;
+      p{
+        font-family: $primaryFont;
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px;
+
+        a:link {
+          color: $link;
+          text-decoration: none;
+       }
+      }
+    }
+    .raadgivning_flex-7{
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px;
+      img{
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+      }
+    }
+    .raadgivning_flex-8{
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 13px;
+      p{
+        font-family: $primaryFont;
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px;
+
+        a:link {
+          color: $link;
+          text-decoration: none;
+       }
+      }
+    }
+    .raadgivning_flex-9{
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px;
+      img{
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+      }
+    }
+    .raadgivning_flex-10{
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 13px;
+      p{
+        font-family: $primaryFont;
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px;
+
+        a:link {
+          color: $link;
+          text-decoration: none;
+
+
+       }
+      }
+    }
+    .raadgivning_flex-11{
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px;
+      img{
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+      }
+    }
+    .raadgivning_flex-12{
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 14px;
+      p{
+        font-family: $primaryFont;
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px;
+
+        a:link {
+          color: $link;
+          text-decoration: none;
+       }
+      }
+    }
+    .raadgivning_flex-13{
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px;
+      img{
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+      }
+    }
+    .raadgivning_flex-14{
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 14px;
+      p{
+        font-family: $primaryFont;
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px;
+
+        a:link {
+          color: $link;
+          text-decoration: none;
+       }
+      }
+    }
+    .raadgivning_flex-15{
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px;
+      img{
+        width: 100%;
+        max-height: 300px;
+        transition: 0.5s;
+      }
+      img:hover{
+        opacity: 0.3;
+      }
+    }
+    .raadgivning_flex-16{
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 14px;
+      p{
+        font-family: $primaryFont;
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px;
+
+        a:link {
+          color: $link;
+          text-decoration: none;
+       }
+      }
+    }
+    .raadgivning_flex-17{
+      min-width: 45%;
+      margin: 0.5;
+      margin-top: 45px;
+      img{
+        width: 100%;
+        max-height: 300px;
+
+      }
+      img:hover{
+        opacity: 0.3;
+      }
+    }
+    .raadgivning_flex-18{
+      min-width: 45%;
+      margin: 1.0rem;
+      margin-top: 14px;
+      margin-bottom: 20px;
+      p{
+        font-family: $primaryFont;
+        font-size: 23px;
+        width: 100%;
+        max-height: 300px;
+
+        a:link {
+          color: $link;
+          text-decoration: none;
+       }
+      }
+    }
+      .wrapper2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    /*økonomisk rådgivning*/
+
+    .oko-overskrift {
+      margin: 1.0rem;
+      min-width: 75%;
+      height: 300px;
+      h1 {
+        font-family: $primaryFont;
+        font-size: 33px;
+        text-align: center;
+      }
+    }
+
+      .raad-1{
+        margin: 1.0rem;
+        min-width: 45%;
+        height: 300px;
+        float: left;
+        margin-left: 0px;
+        margin-top: -120px;
+        img{
+          width: 100%;
+          max-height: 300px;
+        }
+      }
+
+      .raad-2{
+        display: inline-block;
+        width: 45%;
+        margin-left: 20px;
+        font-family: $primaryFont;
+        margin-top: -140PX;
+      }
+      .presse_wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        max-height: auto;
+        max-width: 100%;
+        width: 100%;
+        margin: 0px;
+        justify-content: center;
+        margin-top: 1rem;
+
+
+
+      .presse_flex-1{
+        margin: 0rem;
+        min-width: 100%;
+        height: 220px;
+        img{
+          border: solid;
+          border-color: black;
+          width: 100%;
+          max-height: 230px;
+          transition: 0.5s;
+        }
+        img:hover{
+          opacity: 0.3;
+      }
+      }
+      .presse_flex-2{
+        margin: 0rem;
+        min-width: 100%;
+        height: 350px;
+        img{
+          border: solid;
+          border-color: black;
+          width: 100%;
+          max-height: 330px;
+          transition: 0.5s;
+        }
+        img:hover{
+          opacity: 0.3;
+      }
+      }
+      .presse_flex-3{
+        margin: 0rem;
+        width: 100%;
+        height: 150px;
+        img{
+          border: solid;
+          border-color: black;
+          width: 100%;
+          max-height: 230px;
+          transition: 0.5s;
+        }
+        img:hover{
+          opacity: 0.3;
+      }
+      }
+      .presse_flex-4{
+        margin: 0rem;
+        min-width: 100%;
+        height: auto;
+        height: 200px;
+        img{
+          border: solid;
+          border-color: black;
+          width: 100%;
+          height: auto;
+          max-height: 200px;
+          transition: 0.5s;
+
+          }
+          img:hover{
+            opacity: 0.3;
+        }
+        }
+      }
+
+
+      .presse_flex-7{
+        width: 32%;
+        margin: 0.5rem;
+        margin-left: 700px;
+        margin-right: 200px;
+      iframe{
+          width: 100%;
+          max-height: 230px;
+        }
+      }
+
+        .video{
+          padding-left: 0%;
+          position: center;
+          padding-bottom: 50%;
+          padding-right: 60%;
+          margin-right: 200px;
+          padding-top: 4%;
+        }
+        .kontakt_wrapper{
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          max-height: auto;
+          max-width: 100%;
+          width: 100%;
+          margin: 0px;
+          justify-content: center;
+          margin-top: 0.5rem;
+          background-image: url(img/cork-board.jpg);
+
+
+        .kontakt_flex-1{
+          margin: 0.5rem;
+          min-width: 45%;
+          height: 330px;
+          img{
+            width: 100%;
+            height: auto;
+
+        }
+        }
+        .kontakt_flex-2{
+          margin: 0.5rem;
+          min-width: 45%;
+          img{
+            width: 100%;
+            max-height: auto;
+
+        }
+        }
+        .kontakt_flex-3{
+          margin: 0.5rem;
+          min-width: 45%;
+          margin-top: -90px;
+          img{
+            width: 100%;
+            max-height: auto;
+
+        }
+        }
+        .kontakt_flex-4{
+          margin: 0.5rem;
+          min-width: 45%;
+          height: 230px;
+          margin-top: -90px;
+          img{
+            width: 100%;
+            max-height: auto;
+
+        }
+        }
+        .kontakt_flex-5{
+          min-width: 45%;
+          margin: 0.5rem;
+          height: 420px;
+          margin-top: -60px;
+          img{
+            width: 100%;
+            height: auto;
+        }
+        }
+        .kontakt_flex-6{
+          min-width: 45%;
+          margin: 0.5rem;
+          margin-top: -70px;
+          img{
+            width: 100%;
+            height: auto;
+          }
+          }
+        }
+
+        footer{
+          height: 0px;
+          text-align: center;
+          margin-top: 10px;
+          font-family: $primaryFont;
+
+        }
+
+        .footer_presse{
+          height: 30px;
+          text-align: center;
+          margin-top: 0px;
+          font-family: $primaryFont;
+        }
+    }
+  }
+
+}
